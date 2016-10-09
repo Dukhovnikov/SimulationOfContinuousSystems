@@ -19,6 +19,7 @@ namespace frqvs
     /// </summary>
     public partial class IDD_R : Window
     {
+        #region Добавленные функции
         /// <summary>
         /// Отчистка всех полей формы.
         /// </summary>
@@ -36,6 +37,7 @@ namespace frqvs
         {
             return int.Parse(IDC_NEXTR.Text);
         }
+        #endregion
         public IDD_R()
         {
             InitializeComponent();
@@ -43,9 +45,9 @@ namespace frqvs
 
         private void IDC_NEXT_BUTTON_Click(object sender, RoutedEventArgs e)
         {
-            Data.in_r[GetIDC_NextNumber(), 0] = int.Parse(IDC_NPR.Text);
-            Data.in_r[GetIDC_NextNumber(), 1] = int.Parse(IDC_NMR.Text);
-            Data.z_r[GetIDC_NextNumber()] = float.Parse(IDC_ZR.Text);
+            Data.in_r[GetIDC_NextNumber() - 1, 0] = int.Parse(IDC_NPR.Text);
+            Data.in_r[GetIDC_NextNumber() - 1, 1] = int.Parse(IDC_NMR.Text);
+            Data.z_r[GetIDC_NextNumber() - 1] = float.Parse(IDC_ZR.Text);
             IDC_NEXTR.Text = (GetIDC_NextNumber() + 1).ToString();
             if (GetIDC_NextNumber() <= Data.nr)
             {

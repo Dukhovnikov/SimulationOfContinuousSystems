@@ -1,16 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Windows;
-using System.Windows.Controls;
-using System.Windows.Data;
-using System.Windows.Documents;
-using System.Windows.Input;
-using System.Windows.Media;
-using System.Windows.Media.Imaging;
-using System.Windows.Shapes;
+﻿using System.Windows;
 
 namespace frqvs
 {
@@ -40,8 +28,8 @@ namespace frqvs
             Data.ntr = int.Parse(IDC_NTR.Text);
             Data.noui = int.Parse(IDC_NOUI.Text);
             Data.ntri = int.Parse(IDC_NTRI.Text);
-            Data.in_r = new int[Data.nr + 1, 2];
-            Data.z_r = new float[Data.nr + 1];
+            Data.in_r = new int[Data.nr, 2];
+            Data.z_r = new float[Data.nr];
             Close();
         }
     }
