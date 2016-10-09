@@ -1,0 +1,60 @@
+﻿<Window x:Class="frqvs.IDD_RED"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:frqvs"
+        mc:Ignorable="d"
+        Title="Редактирование компонентов" Height="397.252" Width="663.751">
+    <Grid>
+        <Button x:Name="IDC_OUT_BUTTON" Content="Вывод описания" HorizontalAlignment="Left" Margin="390,84,0,0" VerticalAlignment="Top" Width="110" Height="25" Background="{x:Null}" Click="IDC_OUT_BUTTON_Click">
+
+        </Button>
+        <Button x:Name="IDC_OK" Content="ОК" HorizontalAlignment="Left" Height="24" Margin="42,325,0,0" VerticalAlignment="Top" Width="110
+                " Background="{x:Null}" Click="IDC_OK_Click">
+
+        </Button>
+        <Button x:Name="IDC_IN_BUTTON" Content="Ввод описания" HorizontalAlignment="Left" Height="24" Margin="390,286,0,0" VerticalAlignment="Top" Width="110" Background="{x:Null}" Click="IDC_IN_BUTTON_Click">
+
+        </Button>
+        <Label x:Name="Type" Content="Тип компонента" HorizontalAlignment="Left" Height="26" Margin="22,10,0,0" VerticalAlignment="Top" Width="158" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+        <Label x:Name="Number" Content="Номер компонента" HorizontalAlignment="Left" Margin="327,41,0,0" VerticalAlignment="Top" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+        <TextBox x:Name="IDC_N" HorizontalAlignment="Left" Height="26" Margin="472,41,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="68" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+        <TextBox x:Name="IDC_NP1" HorizontalAlignment="Left" Height="25" Margin="325,122,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="65" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" />
+        <TextBox x:Name="IDC_NM1" HorizontalAlignment="Left" Height="25" Margin="325,152,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="65" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" />
+        <TextBox x:Name="IDC_NP2" HorizontalAlignment="Left" Height="25" Margin="325,182,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="65" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" />
+        <TextBox x:Name="IDC_NM2" HorizontalAlignment="Left" Height="25" Margin="325,212,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="64" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" />
+        <TextBox x:Name="IDC_Z1" HorizontalAlignment="Left" Height="25" Margin="325,242,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="64" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" />
+        <TextBox x:Name="IDC_Z2" HorizontalAlignment="Left" Height="25" Margin="545,122,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="65" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" />
+        <TextBox x:Name="IDC_Z3" HorizontalAlignment="Left" Height="25" Margin="545,152,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="65" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" />
+        <TextBox x:Name="IDC_Z4" HorizontalAlignment="Left" Height="25" Margin="545,182,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="65" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" />
+        <TextBox x:Name="IDC_Z5" HorizontalAlignment="Left" Height="25" Margin="545,212,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="65" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" />
+        <TextBox x:Name="IDC_Z6" HorizontalAlignment="Left" Height="25" Margin="545,242,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="65" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" />
+        <ListBox x:Name="IDC_RED_LIST" HorizontalAlignment="Left" Height="270" Margin="22,41,0,0" VerticalAlignment="Top" Width="158" SelectionChanged="IDC_RED_LIST_SelectionChanged">
+            <ListBoxItem Content="Резисторы"/>
+            <ListBoxItem Content="Конденсаторы"/>
+            <ListBoxItem Content="Индуктивности"/>
+            <ListBoxItem Content="ИТУН"/>
+            <ListBoxItem Content="ИНУН"/>
+            <ListBoxItem Content="ИТУТ"/>
+            <ListBoxItem Content="ИНУТ"/>
+            <ListBoxItem Content="Б/п транзисторы"/>
+            <ListBoxItem Content="У/п транзисторы"/>
+            <ListBoxItem Content="Опер. усилители"/>
+            <ListBoxItem Content="Трансформаторы"/>
+            <ListBoxItem Content="Ид. опер. усилители"/>
+            <ListBoxItem Content="Ид. трансформаторы"/>
+        </ListBox>
+        <Label x:Name="label1" Content="Узел n+" HorizontalAlignment="Left" Margin="189,122,0,0" VerticalAlignment="Top" Height="25" Width="130" HorizontalContentAlignment="Right" VerticalContentAlignment="Center" />
+        <Label x:Name="label2" Content="Узел n-" HorizontalAlignment="Left" Margin="189,152,0,0" VerticalAlignment="Top" Height="25" Width="130" HorizontalContentAlignment="Right" VerticalContentAlignment="Center" />
+        <Label x:Name="label3" Content="Сопротивление (кОм)" HorizontalAlignment="Left" Margin="189,182,0,0" VerticalAlignment="Top" Height="25" Width="130" HorizontalContentAlignment="Right" VerticalContentAlignment="Center" />
+        <Label x:Name="label4" Content="Label" HorizontalAlignment="Left" Margin="189,212,0,0" VerticalAlignment="Top" Height="25" Width="130" HorizontalContentAlignment="Right" VerticalContentAlignment="Center" />
+        <Label x:Name="label5" Content="Label" HorizontalAlignment="Left" Margin="189,242,0,0" VerticalAlignment="Top" Height="25" Width="130" HorizontalContentAlignment="Right" VerticalContentAlignment="Center" />
+        <Label x:Name="label6" Content="Label" HorizontalAlignment="Left" Margin="410,122,0,0" VerticalAlignment="Top" Height="25" Width="130" HorizontalContentAlignment="Right" VerticalContentAlignment="Center" />
+        <Label x:Name="label7" Content="Label" HorizontalAlignment="Left" Margin="410,152,0,0" VerticalAlignment="Top" Height="25" Width="130" HorizontalContentAlignment="Right" VerticalContentAlignment="Center" />
+        <Label x:Name="label8" Content="Label" HorizontalAlignment="Left" Margin="410,182,0,0" VerticalAlignment="Top" Height="25" Width="130" HorizontalContentAlignment="Right" VerticalContentAlignment="Center" />
+        <Label x:Name="label9" Content="Label" HorizontalAlignment="Left" Margin="410,212,0,0" VerticalAlignment="Top" Height="25" Width="130" HorizontalContentAlignment="Right" VerticalContentAlignment="Center" />
+        <Label x:Name="label10" Content="Label" HorizontalAlignment="Left" Margin="410,242,0,0" VerticalAlignment="Top" Height="25" Width="130" HorizontalContentAlignment="Right" VerticalContentAlignment="Center" />
+
+    </Grid>
+</Window>

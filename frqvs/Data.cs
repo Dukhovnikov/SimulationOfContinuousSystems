@@ -76,6 +76,7 @@ namespace frqvs
         /// Узел Массив сопротивления резистора.
         /// </summary>
         public static float[] z_r;
+
         #endregion
     }
 }

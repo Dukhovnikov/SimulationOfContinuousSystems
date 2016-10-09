@@ -36,5 +36,17 @@ namespace frqvs
             SIZE.ShowDialog();
             ShowIddR(Data.nr);
         }
+
+        private void ID_RED_Click(object sender, RoutedEventArgs e)
+        {
+            IDD_RED RED = new IDD_RED();
+            RED.ShowDialog();
+        }
+
+        private void ID_FILE_Click(object sender, RoutedEventArgs e)
+        {
+            IDD_FILE FILE = new IDD_FILE();
+            FILE.ShowDialog();
+        }
     }
 }

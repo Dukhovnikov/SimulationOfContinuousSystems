@@ -10,9 +10,9 @@
         <Menu x:Name="menu" VerticalAlignment="Top">
             <MenuItem Header="Описание">
                 <MenuItem Header="Ввод с клавиатуры" Name="ID_CONS" Click="ID_CONS_Click"/>
-                <MenuItem Header="Ввод из файла" Name="ID_FILE"/>
+                <MenuItem Header="Ввод из файла" Name="ID_FILE" Click="ID_FILE_Click"/>
             </MenuItem>
-            <MenuItem Header="Редактирование" Name="ID_RED"/>
+            <MenuItem Header="Редактирование" Name="ID_RED" Click="ID_RED_Click"/>
             <MenuItem Header="Директивы расчета">
                 <MenuItem Header="Вид частотной характеристики" Name="ID_F"/>
                 <MenuItem Header="Вх/вых узлы" Name="ID_IO"/>
