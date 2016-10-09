@@ -1,0 +1,30 @@
+﻿<Window x:Class="frqvs.frqvsDlg"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:frqvs"
+        mc:Ignorable="d"
+        Title="Моделирование систем в частотной области" Height="350" Width="582.463">
+    <Grid>
+        <Menu x:Name="menu" VerticalAlignment="Top">
+            <MenuItem Header="Описание">
+                <MenuItem Header="Ввод с клавиатуры" Name="ID_CONS" Click="ID_CONS_Click"/>
+                <MenuItem Header="Ввод из файла" Name="ID_FILE"/>
+            </MenuItem>
+            <MenuItem Header="Редактирование" Name="ID_RED"/>
+            <MenuItem Header="Директивы расчета">
+                <MenuItem Header="Вид частотной характеристики" Name="ID_F"/>
+                <MenuItem Header="Вх/вых узлы" Name="ID_IO"/>
+            </MenuItem>
+            <MenuItem Header="Расчет" Name="ID_CALC" Height="22"/>
+            <MenuItem Header="Вид">
+                <MenuItem Header="Собственный броузер" Name="ID_PRIV"/>
+                <MenuItem Header="Системный броузер" Name="ID_SYS"/>
+            </MenuItem>
+            <MenuItem Header="Интернет" Name="ID_INTERNET"/>
+            <MenuItem Header="Выход" Name="ID_EXIT" Click="ID_EXIT_Click"/>
+        </Menu>
+
+    </Grid>
+</Window>
