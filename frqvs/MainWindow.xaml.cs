@@ -48,5 +48,23 @@ namespace frqvs
             IDD_FILE FILE = new IDD_FILE();
             FILE.ShowDialog();
         }
+
+        private void ID_F_Click(object sender, RoutedEventArgs e)
+        {
+            IDD_F F = new IDD_F();
+            F.ShowDialog();
+        }
+
+        private void ID_IO_Click(object sender, RoutedEventArgs e)
+        {
+            IDD_IO IO = new IDD_IO();
+            IO.ShowDialog();
+        }
+
+        private void ID_INTERNET_Click(object sender, RoutedEventArgs e)
+        {
+            IDD_INT INT = new IDD_INT();
+            INT.ShowDialog();
+        }
     }
 }

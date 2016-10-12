@@ -28,7 +28,7 @@ namespace frqvs
 
         private void IDC_FILEOK_BUTTON_Click(object sender, RoutedEventArgs e)
         {
-
+            Close();
         }
 
         void FileOut(string fileName)
@@ -36,22 +36,22 @@ namespace frqvs
             StreamWriter Out = new StreamWriter(fileName);
             Out.WriteLine(Data.nv + ";" + Data.nr + ";" + Data.nc); 
         }
-        void FileIn(string fileName)
-        {
-            StreamReader file = new StreamReader(fileName);
-            string str;
-            str = file.ReadLine();
-            string[] s = str.Split(';');
+        //void FileIn(string fileName)
+        //{
+        //    StreamReader file = new StreamReader(fileName);
+        //    string str;
+        //    str = file.ReadLine();
+        //    string[] s = str.Split(';');
 
-            Type curType = typeof(Data);
-            FieldInfo[] properties = curType.GetFields(BindingFlags.Static|BindingFlags.Public);
-            foreach (FieldInfo property in properties)
-            {
-                if  (property.FieldType == typeof(int))
-                {
-                    property.SetValue(Data,)
-                }
-            }
-        }
+        //    Type curType = typeof(Data);
+        //    FieldInfo[] properties = curType.GetFields(BindingFlags.Static|BindingFlags.Public);
+        //    foreach (FieldInfo property in properties)
+        //    {
+        //        if  (property.FieldType == typeof(int))
+        //        {
+        //            property.SetValue(Data,)
+        //        }
+        //    }
+        //}
     }
 }

@@ -55,7 +55,19 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Page Include="IDD_F.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="IDD_FILE.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="IDD_INT.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="IDD_IO.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -81,8 +93,17 @@
     </Compile>
     <Compile Include="Data.cs" />
     <Compile Include="frqvsDlgData.cs" />
+    <Compile Include="IDD_F.xaml.cs">
+      <DependentUpon>IDD_F.xaml</DependentUpon>
+    </Compile>
     <Compile Include="IDD_FILE.xaml.cs">
       <DependentUpon>IDD_FILE.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="IDD_INT.xaml.cs">
+      <DependentUpon>IDD_INT.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="IDD_IO.xaml.cs">
+      <DependentUpon>IDD_IO.xaml</DependentUpon>
     </Compile>
     <Compile Include="IDD_R.xaml.cs">
       <DependentUpon>IDD_R.xaml</DependentUpon>

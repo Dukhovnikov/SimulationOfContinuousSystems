@@ -1,0 +1,26 @@
+﻿<Window x:Class="frqvs.IDD_F"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:frqvs"
+        mc:Ignorable="d"
+        Title="Вид частотной характеристики" Height="322" Width="503">
+    <Grid>
+        <RadioButton x:Name="IDC_F" Content="Единственная частотная точка" HorizontalAlignment="Left" Margin="20,23,0,0" VerticalAlignment="Top" FontSize="16"/>
+        <RadioButton x:Name="IDC_DF" Content="Линейный закон изменения частоты" HorizontalAlignment="Left" Margin="20,53,0,0" VerticalAlignment="Top" FontSize="16"/>
+        <RadioButton x:Name="IDC_KF" Content="Логарифмический закон изменения частоты" HorizontalAlignment="Left" Margin="20,82,0,0" VerticalAlignment="Top" FontSize="16"/>
+        <TextBox x:Name="IDC_T1" HorizontalAlignment="Left" Height="28" Margin="20,123,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="293" FontSize="16" VerticalContentAlignment="Center"/>
+        <TextBox x:Name="IDC_T2" HorizontalAlignment="Left" Height="28" Margin="20,157,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="293" FontSize="16" VerticalContentAlignment="Center"/>
+        <TextBox x:Name="IDC_T3" HorizontalAlignment="Left" Height="28" Margin="20,191,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="293" FontSize="16" VerticalContentAlignment="Center"/>
+        <TextBox x:Name="IDC_F1" HorizontalAlignment="Left" Height="28" Margin="318,123,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="154" FontSize="16" Text="0" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+        <TextBox x:Name="IDC_F2" HorizontalAlignment="Left" Height="28" Margin="318,157,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="154" FontSize="16" Text="0" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+        <TextBox x:Name="IDC_F3" HorizontalAlignment="Left" Height="28" Margin="318,191,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="154" FontSize="16" Text="0" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+        <Button x:Name="IDC_FOK_BUTTON" Content="OK" HorizontalAlignment="Left" Height="34" Margin="218,234,0,0" VerticalAlignment="Top" Width="73" Background="{x:Null}" FontSize="16">
+            <Button.Effect>
+                <DropShadowEffect/>
+            </Button.Effect>
+        </Button>
+
+    </Grid>
+</Window>

@@ -14,15 +14,15 @@
             </MenuItem>
             <MenuItem Header="Редактирование" Name="ID_RED" Click="ID_RED_Click"/>
             <MenuItem Header="Директивы расчета">
-                <MenuItem Header="Вид частотной характеристики" Name="ID_F"/>
-                <MenuItem Header="Вх/вых узлы" Name="ID_IO"/>
+                <MenuItem Header="Вид частотной характеристики" Name="ID_F" Click="ID_F_Click"/>
+                <MenuItem Header="Входные и выходные узлы" Name="ID_IO" Click="ID_IO_Click"/>
             </MenuItem>
             <MenuItem Header="Расчет" Name="ID_CALC" Height="22"/>
             <MenuItem Header="Вид">
                 <MenuItem Header="Собственный броузер" Name="ID_PRIV"/>
                 <MenuItem Header="Системный броузер" Name="ID_SYS"/>
             </MenuItem>
-            <MenuItem Header="Интернет" Name="ID_INTERNET"/>
+            <MenuItem Header="Интернет" Name="ID_INTERNET" Click="ID_INTERNET_Click"/>
             <MenuItem Header="Выход" Name="ID_EXIT" Click="ID_EXIT_Click"/>
         </Menu>
 
