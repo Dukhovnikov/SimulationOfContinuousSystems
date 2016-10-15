@@ -78,5 +78,11 @@ namespace frqvs
         public static float[] z_r;
 
         #endregion
+
+        static public string ConvertToFile()
+        {
+            string s = nv.ToString()+ ";" + nr.ToString() + ";" + nc.ToString() + ";" + nl.ToString() + ";" + nju.ToString() + ";" + neu.ToString() + ";" + nji.ToString() + ";" + nei.ToString() + ";" + ntb.ToString() + ";" + ntu.ToString() + ";" + nou.ToString() + ";" + ntr.ToString() + ";" + noui.ToString() + ";" + ntri.ToString();
+            return s;
+        }
     }
 }

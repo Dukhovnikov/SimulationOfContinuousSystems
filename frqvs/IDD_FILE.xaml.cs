@@ -28,30 +28,15 @@ namespace frqvs
 
         private void IDC_FILEOK_BUTTON_Click(object sender, RoutedEventArgs e)
         {
+            FileOut(IDC_FILE.Text);
             Close();
         }
 
         void FileOut(string fileName)
         {
             StreamWriter Out = new StreamWriter(fileName);
-            Out.WriteLine(Data.nv + ";" + Data.nr + ";" + Data.nc); 
+            Out.WriteLine(Data.ConvertToFile());
+            Out.Close();
         }
-        //void FileIn(string fileName)
-        //{
-        //    StreamReader file = new StreamReader(fileName);
-        //    string str;
-        //    str = file.ReadLine();
-        //    string[] s = str.Split(';');
-
-        //    Type curType = typeof(Data);
-        //    FieldInfo[] properties = curType.GetFields(BindingFlags.Static|BindingFlags.Public);
-        //    foreach (FieldInfo property in properties)
-        //    {
-        //        if  (property.FieldType == typeof(int))
-        //        {
-        //            property.SetValue(Data,)
-        //        }
-        //    }
-        //}
     }
 }
