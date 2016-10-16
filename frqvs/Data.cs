@@ -76,7 +76,10 @@ namespace frqvs
         /// Узел Массив сопротивления резистора.
         /// </summary>
         public static float[] z_r;
-
+        /// <summary>
+        /// Значения сетки для ФЧХ.
+        /// </summary>
+        public static float[] f;
         #endregion
 
         static public string ConvertToStringForFile()
