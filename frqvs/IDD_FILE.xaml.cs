@@ -28,15 +28,15 @@ namespace frqvs
 
         private void IDC_FILEOK_BUTTON_Click(object sender, RoutedEventArgs e)
         {
-            FileOut(IDC_FILE.Text);
+            //FileOut(IDC_FILE.Text);
             Close();
         }
 
-        void FileOut(string fileName)
-        {
-            StreamWriter Out = new StreamWriter(fileName);
-            Out.WriteLine(Data.ConvertToFile());
-            Out.Close();
-        }
+        //void FileOut(string fileName)
+        //{
+        //    StreamWriter Out = new StreamWriter(fileName);
+        //    Out.WriteLine(Data.ConvertToFile());
+        //    Out.Close();
+        //}
     }
 }

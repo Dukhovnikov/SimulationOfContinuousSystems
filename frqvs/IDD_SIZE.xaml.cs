@@ -10,6 +10,20 @@ namespace frqvs
         public IDD_SIZE()
         {
             InitializeComponent();
+            IDC_NV.Text = Data.nv.ToString();
+            IDC_NR.Text = Data.nr.ToString();
+            IDC_NC.Text = Data.nc.ToString();
+            IDC_NL.Text = Data.nl.ToString();
+            IDC_NJU.Text = Data.nju.ToString();
+            IDC_NEU.Text = Data.neu.ToString();
+            IDC_NJI.Text = Data.nji.ToString();
+            IDC_NEI.Text = Data.nei.ToString();
+            IDC_NTB.Text = Data.ntb.ToString();
+            IDC_NTU.Text = Data.ntu.ToString();
+            IDC_NOU.Text = Data.nou.ToString();
+            IDC_NTR.Text = Data.ntr.ToString();
+            IDC_NOUI.Text = Data.noui.ToString();
+            IDC_NTRI.Text = Data.ntri.ToString();
         }
 
         private void OK_Click(object sender, RoutedEventArgs e)

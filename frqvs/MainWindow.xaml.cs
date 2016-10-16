@@ -1,5 +1,7 @@
-﻿using System;
+﻿using Microsoft.Win32;
+using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -45,8 +47,17 @@ namespace frqvs
 
         private void ID_FILE_Click(object sender, RoutedEventArgs e)
         {
-            IDD_FILE FILE = new IDD_FILE();
-            FILE.ShowDialog();
+            OpenFileDialog myDialog = new OpenFileDialog();
+            myDialog.Filter = "Таблица(*.csv)|*.csv;";
+            myDialog.CheckFileExists = true;
+            if (myDialog.ShowDialog() == true)
+            {
+                StreamReader reader = new StreamReader(myDialog.FileName);
+                string text = reader.ReadLine();
+                Data.ReadFileLine(text);
+                reader.Close();
+            }
+
         }
 
         private void ID_F_Click(object sender, RoutedEventArgs e)
@@ -65,6 +76,20 @@ namespace frqvs
         {
             IDD_INT INT = new IDD_INT();
             INT.ShowDialog();
+        }
+
+        private void ID_FILE_SAVE_Click(object sender, RoutedEventArgs e)
+        {
+            SaveFileDialog myDialog = new SaveFileDialog();
+            myDialog.Filter = "Таблица(*.csv)|*.csv;";
+            //myDialog.CheckFileExists = true;
+            if (myDialog.ShowDialog() == true)
+            {
+                string filename = myDialog.FileName;
+                StreamWriter file = new StreamWriter(filename);
+                file.WriteLine(Data.ConvertToStringForFile());
+                file.Close();
+            }
         }
     }
 }
