@@ -23,5 +23,10 @@ namespace frqvs
         {
             InitializeComponent();
         }
+
+        private void IDC_IOOK_BUTTON_Click(object sender, RoutedEventArgs e)
+        {
+            Close();
+        }
     }
 }
