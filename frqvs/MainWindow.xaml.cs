@@ -57,7 +57,6 @@ namespace frqvs
                 Data.ReadFileLine(text);
                 reader.Close();
             }
-
         }
 
         private void ID_F_Click(object sender, RoutedEventArgs e)

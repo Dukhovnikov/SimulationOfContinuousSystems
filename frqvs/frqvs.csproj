@@ -59,10 +59,6 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="IDD_FILE.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
     <Page Include="IDD_INT.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -95,9 +91,6 @@
     <Compile Include="frqvsDlgData.cs" />
     <Compile Include="IDD_F.xaml.cs">
       <DependentUpon>IDD_F.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="IDD_FILE.xaml.cs">
-      <DependentUpon>IDD_FILE.xaml</DependentUpon>
     </Compile>
     <Compile Include="IDD_INT.xaml.cs">
       <DependentUpon>IDD_INT.xaml</DependentUpon>
