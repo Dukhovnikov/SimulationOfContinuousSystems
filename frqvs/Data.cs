@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows;
 
 namespace frqvs
 {
@@ -11,6 +12,8 @@ namespace frqvs
     /// </summary>
     static class Data
     {
+        static public Window Browser;
+
         #region Данные
         /// <summary>
         /// Число узлов.

@@ -74,8 +74,11 @@ namespace frqvs
 
         private void ID_INTERNET_Click(object sender, RoutedEventArgs e)
         {
-            IDD_INT INT = new IDD_INT();
-            INT.ShowDialog();
+            //IDD_INT INT = new IDD_INT();
+            //INT.ShowDialog();
+            //IDC_WebBrowser WebBrowser = new IDC_WebBrowser();
+            //WebBrowser.ShowDialog();
+            Data.Browser.ShowDialog();
         }
 
         private void ID_FILE_SAVE_Click(object sender, RoutedEventArgs e)
@@ -90,6 +93,19 @@ namespace frqvs
                 file.WriteLine(Data.ConvertToStringForFile());
                 file.Close();
             }
+        }
+
+        private void ID_SYS_Click(object sender, RoutedEventArgs e)
+        {
+            IDC_WebBrowser WebBrowser = new IDC_WebBrowser();
+            Data.Browser = WebBrowser;
+        }
+
+        private void ID_PRIV_Click(object sender, RoutedEventArgs e)
+        {
+            IDD_INT INT = new IDD_INT();
+            Data.Browser = INT;
+            //INT.ShowDialog();
         }
     }
 }
