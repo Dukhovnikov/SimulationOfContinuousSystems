@@ -8,12 +8,26 @@ using System.Windows;
 namespace frqvs
 {
     /// <summary>
+    /// Тип браузера приложения.
+    /// </summary>
+    enum TypeBrowser
+    {
+        /// <summary>
+        /// Системный браузер.
+        /// </summary>
+        System,
+        /// <summary>
+        /// Собственный браузер
+        /// </summary>
+        Own
+    }
+    /// <summary>
     /// Статический класс хранения глобальных данных.
     /// </summary>
     static class Data
     {
         static public Window Browser;
-
+        static public TypeBrowser typeBrowser;
         #region Данные
         /// <summary>
         /// Число узлов.
