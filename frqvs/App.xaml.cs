@@ -22,7 +22,7 @@ namespace frqvs
             {
                 WebCore.Initialize(new WebConfig()
                 {
-                    HomeURL = "http://www.awesomium.com".ToUri(),
+                    HomeURL = "http://www.eltech.ru/".ToUri(),
                     LogPath = @".\starter.log",
                     LogLevel = LogLevel.Verbose
                 });
