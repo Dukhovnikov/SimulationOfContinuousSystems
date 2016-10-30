@@ -20,6 +20,24 @@ namespace frqvs
                 form.ShowDialog();
             }
         }
+
+        void ShowBrowserUseTypeBrowserData( TypeBrowser type)
+        {
+            switch (type)
+            {
+                case TypeBrowser.System:
+                    IDC_WebBrowser WebBrowser = new IDC_WebBrowser();
+                    Data.Browser = WebBrowser;
+                    break;
+                case TypeBrowser.Own:
+                    IDD_INT INT = new IDD_INT();
+                    Data.Browser = INT;
+                    break;
+                default:
+                    break;
+            }
+            Data.Browser.ShowDialog();
+        }
         #endregion
     }
 }
