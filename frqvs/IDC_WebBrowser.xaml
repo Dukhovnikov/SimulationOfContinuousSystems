@@ -66,7 +66,7 @@
                 x:Name="webControl"
                 NativeView="{Binding NativeView, ElementName=webWindow}"
                 WebSession="{Binding Source={StaticResource webSession}}"
-                Source="{Binding Source, ElementName=webWindow}"/>
+                Source="{Binding Source, ElementName=webWindow}" Margin="0,25,0,0"/>
             <StatusBar
                 Grid.Row="2" 
                 Height="25" 
@@ -120,6 +120,16 @@
                     </StackPanel>
                 </StatusBarItem>
             </StatusBar>
+            <ComboBox x:Name="comboBox" 
+                      Grid.Row="1" 
+                      VerticalAlignment="Top"
+                      Height="25"
+                      Text="{data:SourceBinding webControl}">
+                <ComboBoxItem Content="http://127.0.0.1/MF/AppletParam.html"/>
+                <ComboBoxItem Content="http://localhost/MF/beg.html"/>
+                <ComboBoxItem Content="http://127.0.0.1/MF/Int3d.htm"/>
+                <ComboBoxItem Content="http://yandex.ru"/>
+            </ComboBox>
         </Grid>
     </awe:WebDialogsLayer>
 </Window>    

@@ -16,8 +16,6 @@ namespace frqvs
     {
         protected override void OnStartup(StartupEventArgs e)
         {
-            // Initialization must be performed here,
-            // before creating a WebControl.
             if (!WebCore.IsInitialized)
             {
                 WebCore.Initialize(new WebConfig()
@@ -32,7 +30,6 @@ namespace frqvs
         }
         protected override void OnExit(ExitEventArgs e)
         {
-            // Make sure we shutdown the core last.
             if (WebCore.IsInitialized)
                 WebCore.Shutdown();
 
