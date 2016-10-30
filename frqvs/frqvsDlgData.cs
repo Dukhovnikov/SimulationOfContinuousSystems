@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Diagnostics;
 
 namespace frqvs
 {
@@ -26,17 +27,16 @@ namespace frqvs
             switch (type)
             {
                 case TypeBrowser.System:
-                    IDC_WebBrowser WebBrowser = new IDC_WebBrowser();
-                    Data.Browser = WebBrowser;
+                    Process.Start(@"C:\Program Files (x86)\Google\Chrome\Application\chrome.exe");
                     break;
                 case TypeBrowser.Own:
-                    IDD_INT INT = new IDD_INT();
-                    Data.Browser = INT;
+                    IDC_WebBrowser WebBrowser = new IDC_WebBrowser();
+                    Data.Browser = WebBrowser;
+                    Data.Browser.ShowDialog();
                     break;
                 default:
                     break;
             }
-            Data.Browser.ShowDialog();
         }
         #endregion
     }

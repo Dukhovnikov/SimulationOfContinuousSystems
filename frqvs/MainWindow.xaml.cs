@@ -1,7 +1,6 @@
 ﻿using Microsoft.Win32;
 using System.IO;
 using System.Windows;
-
 namespace frqvs
 {
     /// <summary>
@@ -63,7 +62,7 @@ namespace frqvs
         {
             if (Data.Browser == null)
             {
-                Data.typeBrowser = TypeBrowser.System;
+                Data.typeBrowser = TypeBrowser.Own;
             }
             ShowBrowserUseTypeBrowserData(Data.typeBrowser);
         }
