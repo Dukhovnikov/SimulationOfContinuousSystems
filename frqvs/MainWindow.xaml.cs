@@ -74,12 +74,6 @@ namespace frqvs
 
         private void ID_INTERNET_Click(object sender, RoutedEventArgs e)
         {
-            //if (Data.Browser == null)
-            //{
-            //    IDC_WebBrowser WebBrowser = new IDC_WebBrowser();
-            //    Data.Browser = WebBrowser;
-            //}
-            //Data.Browser.ShowDialog();
             if (Data.Browser == null)
             {
                 Data.typeBrowser = TypeBrowser.System;
@@ -102,15 +96,11 @@ namespace frqvs
 
         private void ID_SYS_Click(object sender, RoutedEventArgs e)
         {
-            //IDC_WebBrowser WebBrowser = new IDC_WebBrowser();
-            //Data.Browser = WebBrowser;
             Data.typeBrowser = TypeBrowser.System;
         }
 
         private void ID_PRIV_Click(object sender, RoutedEventArgs e)
         {
-            //IDD_INT INT = new IDD_INT();
-            //Data.Browser = INT;
             Data.typeBrowser = TypeBrowser.Own;
         }
     }
