@@ -27,7 +27,8 @@ namespace frqvs
             switch (type)
             {
                 case TypeBrowser.System:
-                    Process.Start(@"C:\Program Files (x86)\Google\Chrome\Application\chrome.exe");
+                    //Process.Start(@"C:\Program Files (x86)\Google\Chrome\Application\chrome.exe");
+                    Process.Start(@"C:\Program Files\Internet Explorer\iexplore.exe");
                     break;
                 case TypeBrowser.Own:
                     IDC_WebBrowser WebBrowser = new IDC_WebBrowser();
