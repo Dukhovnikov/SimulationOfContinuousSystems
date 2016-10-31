@@ -128,6 +128,7 @@
                 <ComboBoxItem Content="http://127.0.0.1/MF/AppletParam.html"/>
                 <ComboBoxItem Content="http://localhost/MF/beg.html"/>
                 <ComboBoxItem Content="http://127.0.0.1/MF/Int3d.htm"/>
+                <ComboBoxItem Content="http://127.0.0.1/MF/ParamComp.html"/>
                 <ComboBoxItem Content="http://yandex.ru"/>
             </ComboBox>
         </Grid>
