@@ -20,9 +20,9 @@ namespace frqvs
     /// <summary>
     /// Логика взаимодействия для MainWindow.xaml
     /// </summary>
-    public partial class frqvsDlg : Window
+    public partial class FrqvsDlg : Window
     {
-        public frqvsDlg()
+        public FrqvsDlg()
         {
             InitializeComponent();
         }

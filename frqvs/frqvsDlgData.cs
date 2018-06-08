@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace frqvs
 {
-    public partial class frqvsDlg
+    public partial class FrqvsDlg
     {
         #region Функции
         /// <summary>
@@ -26,8 +26,8 @@ namespace frqvs
             switch (type)
             {
                 case TypeBrowser.System:
-                    IDC_WebBrowser WebBrowser = new IDC_WebBrowser();
-                    Data.Browser = WebBrowser;
+/*                    IDC_WebBrowser WebBrowser = new IDC_WebBrowser();
+                    Data.Browser = WebBrowser;*/
                     break;
                 case TypeBrowser.Own:
                     IDD_INT INT = new IDD_INT();

@@ -57,10 +57,6 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
-    <Page Include="IDC_WebBrowser.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
     <Page Include="IDD_F.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -95,9 +91,6 @@
     </Compile>
     <Compile Include="Data.cs" />
     <Compile Include="frqvsDlgData.cs" />
-    <Compile Include="IDC_WebBrowser.xaml.cs">
-      <DependentUpon>IDC_WebBrowser.xaml</DependentUpon>
-    </Compile>
     <Compile Include="IDD_F.xaml.cs">
       <DependentUpon>IDD_F.xaml</DependentUpon>
     </Compile>
