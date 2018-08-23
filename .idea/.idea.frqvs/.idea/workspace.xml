@@ -10,58 +10,39 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Program.cs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/SCS.ConsoleApp/Program.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="774">
-              <caret line="48" column="14" lean-forward="false" selection-start-line="48" selection-start-column="14" selection-end-line="48" selection-end-column="14" />
-              <folding>
-                <marker date="1528477584164" expanded="false" signature="6:143" ph="..." />
-                <marker date="1528477584164" expanded="true" signature="169:1367" ph="{...}" />
-                <marker date="1528477584164" expanded="true" signature="205:1365" ph="{...}" />
-                <marker date="1528477584164" expanded="true" signature="258:1359" ph="{...}" />
-                <marker date="1528477584164" expanded="true" signature="376:1348" ph="{...}" />
-                <marker date="1528477584164" expanded="true" signature="424:613" ph="{...}" />
-                <marker date="1528477584164" expanded="true" signature="661:850" ph="{...}" />
-                <marker date="1528477584164" expanded="true" signature="898:1092" ph="{...}" />
-                <marker date="1528477584164" expanded="true" signature="1140:1334" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="IElement.cs" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/SCS.Core/IElement.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="205">
-              <caret line="5" column="11" lean-forward="true" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="11" />
-              <folding>
-                <marker date="1527597829707" expanded="true" signature="18:231" ph="{...}" />
-                <marker date="1527597829707" expanded="true" signature="50:229" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/frqvs/Data.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/SCS.ConsoleApp/Program.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/frqvs/App.xaml.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/SCS.Core/Vector.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/SCS.Core/Matrix.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/SCS.ConsoleApp/Implementation/Circuit.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/SCS.Core/Abstraction/ICalculationService.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/SCS.Core/Abstraction/ICalculationRepository.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/SCS.Core/OptLogic.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/SCS.Core/OptimizationMethods/GeneticAlgorithms/RandomService.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/SCS.Core/OptimizationMethods/GeneticAlgorithms/Population.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/SCS.Core/OptimizationMethods/GeneticAlgorithms/GAService.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/SCS.Core/Abstraction/IDataPoints.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/frqvs/App.xaml" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/SCS.ConsoleApp/Implementation/Element.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/SCS.Core/ICircuit.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/frqvs/frqvsDlgData.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/SCS.Core/ElementType.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/SCS.Core/IElement.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/frqvs/Data.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/SCS.Core/OptimizationMethods/Vector.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/SCS.Core/Abstraction/Matrix.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/SCS.Core/Abstraction/ICircuit.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/SCS.Core/Abstraction/ElementType.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/SCS.Core/Abstraction/IElement.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/SCS.ConsoleApp/Program.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/SCS.ConsoleApp/Properties/AssemblyInfo.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/SCS.Core.Last/Core/ClassicOptimizationMethod.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/SCS.Core.Last/Core/LaboratoryWork.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/SCS.Core.Last/Core/GA/VisualizationGA.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/SCS.Core.Last/Core/GA/PopulationData.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/SCS.Core.Last/Core/GA/Population.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/SCS.ConsoleApp/Implementation/Circuit.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/SCS.Core.Last/Core/Matrix.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/SCS.ConsoleApp/Implementation/Element.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/SCS.Core.Last/Core/Vectors.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -74,12 +55,30 @@
         <option value="$PROJECT_DIR$/SCS.Core/IElement.cs" />
         <option value="$PROJECT_DIR$/SCS.Core/Vectors.cs" />
         <option value="$PROJECT_DIR$/SCS.Core/Matrix.cs" />
-        <option value="$PROJECT_DIR$/SCS.Core/Vector.cs" />
         <option value="$PROJECT_DIR$/SCS.ConsoleApp/Implementation/Element.cs" />
         <option value="$PROJECT_DIR$/SCS.ConsoleApp/Implementation/Circuit.cs" />
         <option value="$PROJECT_DIR$/SCS.Core/ICircuit.cs" />
         <option value="$PROJECT_DIR$/SCS.Core/ElementType.cs" />
         <option value="$PROJECT_DIR$/SCS.ConsoleApp/Program.cs" />
+        <option value="$PROJECT_DIR$/SCS.Core/IVector.cs" />
+        <option value="$PROJECT_DIR$/SCS.Core/Vector.cs" />
+        <option value="$PROJECT_DIR$/SCS.Core/ICalculationRepository.cs" />
+        <option value="$PROJECT_DIR$/SCS.Core/IDataPoints.cs" />
+        <option value="$PROJECT_DIR$/SCS.Core/ICalculationService.cs" />
+        <option value="$PROJECT_DIR$/SCS.Core/Abstraction/Implementation.cs" />
+        <option value="$PROJECT_DIR$/SCS.Core/OptLogic.cs" />
+        <option value="$PROJECT_DIR$/SCS.Core/OptimizationMethods/GeneticAlgorithms/RandomService.cs" />
+        <option value="$PROJECT_DIR$/SCS.Core/OptimizationMethods/Vector.cs" />
+        <option value="$PROJECT_DIR$/SCS.Core/OptimizationMethods/GeneticAlgorithms/Population.cs" />
+        <option value="$PROJECT_DIR$/SCS.Core/OptimizationMethods/GeneticAlgorithms/GAService.cs" />
+        <option value="$PROJECT_DIR$/SCS.Core.Last/Class1.cs" />
+        <option value="$PROJECT_DIR$/SCS.Core.Last/Core/Vectors.cs" />
+        <option value="$PROJECT_DIR$/SCS.Core.Last/Core/Matrix.cs" />
+        <option value="$PROJECT_DIR$/SCS.Core.Last/Core/GA/PopulationData.cs" />
+        <option value="$PROJECT_DIR$/SCS.Core.Last/Core/GA/Population.cs" />
+        <option value="$PROJECT_DIR$/SCS.Core.Last/Core/GA/VisualizationGA.cs" />
+        <option value="$PROJECT_DIR$/SCS.Core.Last/Core/ClassicOptimizationMethod.cs" />
+        <option value="$PROJECT_DIR$/SCS.Core.Last/Core/LaboratoryWork.cs" />
       </list>
     </option>
   </component>
@@ -90,9 +89,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-7" />
-    <option name="width" value="974" />
-    <option name="height" value="1057" />
+    <option name="x" value="-11" />
+    <option name="y" value="-11" />
+    <option name="width" value="1924" />
+    <option name="height" value="1056" />
   </component>
   <component name="ProjectView">
     <navigator currentView="SolutionExplorer" proportions="" version="1">
@@ -109,23 +109,23 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="SolutionExplorer">
         <subPane>
           <expand>
             <path>
               <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
-              <item name="frqvs (3 projects)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="frqvs (5 projects)" type="977d5f41:SolutionExplorerNodeRider" />
             </path>
             <path>
               <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
-              <item name="frqvs (3 projects)" type="977d5f41:SolutionExplorerNodeRider" />
-              <item name="SCS.ConsoleApp" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="frqvs (5 projects)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="SCS.Core.Last" type="977d5f41:SolutionExplorerNodeRider" />
             </path>
             <path>
               <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
-              <item name="frqvs (3 projects)" type="977d5f41:SolutionExplorerNodeRider" />
-              <item name="SCS.Core" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="frqvs (5 projects)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="SCS.Core.Last" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="SCS.Last.WinForms" type="977d5f41:SolutionExplorerNodeRider" />
             </path>
           </expand>
           <select />
@@ -133,12 +133,14 @@
         <option name="show-file-system" value="false" />
         <option name="show-all-items" value="false" />
       </pane>
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="D:/YandexDisk/Даня/Дмитревич Г.Д/OptimalDesign/Vectors.cs" />
-    <property name="SearchEverywhereHistoryKey" value="ele&#9;FILE&#9;file://D:/Repositories/SimulationOfContinuousSystems/SCS.Core/ElementType.cs&#10;eleme&#9;FILE&#9;file://D:/Repositories/SimulationOfContinuousSystems/SCS.Core/ElementType.cs&#10;pro&#9;FILE&#9;file://D:/Repositories/SimulationOfContinuousSystems/SCS.ConsoleApp/Program.cs&#10;ici&#9;FILE&#9;file://D:/Repositories/SimulationOfContinuousSystems/SCS.Core/ICircuit.cs&#10;circ&#9;FILE&#9;file://D:/Repositories/SimulationOfContinuousSystems/SCS.ConsoleApp/Implementation/Circuit.cs&#10;progr&#9;FILE&#9;file://D:/Repositories/SimulationOfContinuousSystems/SCS.ConsoleApp/Program.cs&#10;vector&#9;null&#9;null&#10;Vector&#9;FILE&#9;file://D:/Repositories/SimulationOfContinuousSystems/SCS.Core/Vector.cs" />
+    <property name="SearchEverywhereHistoryKey" value="vec&#9;FILE&#9;file://D:/Repositories/SimulationOfContinuousSystems/SCS.Core/OptimizationMethods/Vector.cs&#10;Vector&#9;FILE&#9;file://D:/Repositories/SimulationOfContinuousSystems/SCS.Core/Vector.cs&#10;ele&#9;FILE&#9;file://D:/Repositories/SimulationOfContinuousSystems/SCS.Core/ElementType.cs&#10;eleme&#9;FILE&#9;file://D:/Repositories/SimulationOfContinuousSystems/SCS.Core/ElementType.cs&#10;pro&#9;FILE&#9;file://D:/Repositories/SimulationOfContinuousSystems/SCS.ConsoleApp/Program.cs&#10;ici&#9;FILE&#9;file://D:/Repositories/SimulationOfContinuousSystems/SCS.Core/ICircuit.cs&#10;circ&#9;FILE&#9;file://D:/Repositories/SimulationOfContinuousSystems/SCS.ConsoleApp/Implementation/Circuit.cs&#10;progr&#9;FILE&#9;file://D:/Repositories/SimulationOfContinuousSystems/SCS.ConsoleApp/Program.cs&#10;vector&#9;null&#9;null" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Color Scheme Font" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -152,7 +154,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected=".NET Project.SCS.Core.Last\SCS.Last.WinForms">
     <configuration name="Default" type="DotNetProject" factoryName=".NET Project">
       <option name="EXE_PATH" value="" />
       <option name="PROGRAM_PARAMETERS" value="" />
@@ -168,6 +170,30 @@
       <option name="PROJECT_KIND" value="None" />
       <option name="PROJECT_TFM" value="" />
     </configuration>
+    <configuration name="SCS.Core.Last\SCS.Last.WinForms" type="DotNetProject" factoryName=".NET Project" temporary="true">
+      <option name="EXE_PATH" value="$PROJECT_DIR$/SCS.Last.WinForms/bin/Debug/SCS.Last.WinForms.exe" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/SCS.Last.WinForms/bin/Debug" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <envs />
+      <option name="USE_MONO" value="0" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="PROJECT_PATH" value="$PROJECT_DIR$/SCS.Last.WinForms/SCS.Last.WinForms.csproj" />
+      <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
+      <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
+      <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
+      <option name="PROJECT_KIND" value="Console" />
+      <option name="PROJECT_TFM" value=".NETFramework,Version=v4.7" />
+    </configuration>
+    <list size="2">
+      <item index="0" class="java.lang.String" itemvalue=".NET Project.Default" />
+      <item index="1" class="java.lang.String" itemvalue=".NET Project.SCS.Core.Last\SCS.Last.WinForms" />
+    </list>
+    <recent_temporary>
+      <list size="1">
+        <item index="0" class="java.lang.String" itemvalue=".NET Project.SCS.Core.Last\SCS.Last.WinForms" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
@@ -187,11 +213,15 @@
       <workItem from="1527854188187" duration="390000" />
       <workItem from="1527866060490" duration="3916000" />
       <workItem from="1528477528169" duration="642000" />
+      <workItem from="1528905229328" duration="4207000" />
+      <workItem from="1529057227763" duration="1440000" />
+      <workItem from="1529257945385" duration="6184000" />
+      <workItem from="1529399768993" duration="90000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7355000" />
+    <option name="totallyTimeSpent" value="19276000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -204,18 +234,18 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Errors In Solution" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Unit Tests" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32903227" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="NuGet" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.12953092" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16950959" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -240,416 +270,45 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/frqvs/frqvsDlgData.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-          <folding>
-            <marker date="1527594760655" expanded="false" signature="6:115" ph="..." />
-            <marker date="1527594760655" expanded="true" signature="132:1089" ph="{...}" />
-            <marker date="1527594760655" expanded="true" signature="168:1087" ph="{...}" />
-            <marker date="1527594760655" expanded="true" signature="183:1081" ph="Функции" />
-            <marker date="1527594760655" expanded="true" signature="207:314" ph="/// Если нужно, выполняет открытие формы для ввода резисторов. ... " />
-            <marker date="1527594760655" expanded="true" signature="344:491" ph="{...}" />
-            <marker date="1527594760655" expanded="true" signature="376:481" ph="{...}" />
-            <marker date="1527594760655" expanded="true" signature="554:1062" ph="{...}" />
-            <marker date="1527594760655" expanded="true" signature="590:1013" ph="{...}" />
-            <marker date="1527594760655" expanded="true" signature="646:766" ph="/* IDC_WebBrowser WebBrowser = new IDC_WebBrowser(); ... */" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/frqvs/Data.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1527594124167" expanded="false" signature="6:137" ph="..." />
-            <marker date="1527594124167" expanded="true" signature="154:3582" ph="{...}" />
-            <marker date="1527594124167" expanded="true" signature="161:226" ph="/// Тип браузера приложения. ... " />
-            <marker date="1527594124167" expanded="true" signature="247:440" ph="{...}" />
-            <marker date="1527594124167" expanded="true" signature="262:329" ph="/// Системный браузер. ... " />
-            <marker date="1527594124167" expanded="true" signature="354:422" ph="/// Собственный браузер ... " />
-            <marker date="1527594124167" expanded="true" signature="445:531" ph="/// Статический класс хранения глобальных данных. ... " />
-            <marker date="1527594124167" expanded="true" signature="553:3580" ph="{...}" />
-            <marker date="1527594124167" expanded="true" signature="653:2534" ph="Данные" />
-            <marker date="1527594124167" expanded="true" signature="676:737" ph="/// Число узлов. ... " />
-            <marker date="1527594124167" expanded="true" signature="780:839" ph="/// Резисторы. ... " />
-            <marker date="1527594124167" expanded="true" signature="882:943" ph="/// Конедсаторы. ... " />
-            <marker date="1527594124167" expanded="true" signature="986:1049" ph="/// Индуктивности. ... " />
-            <marker date="1527594124167" expanded="true" signature="1092:1146" ph="/// ИТУН. ... " />
-            <marker date="1527594124167" expanded="true" signature="1190:1244" ph="/// ИНУН. ... " />
-            <marker date="1527594124167" expanded="true" signature="1288:1342" ph="/// ИТУТ. ... " />
-            <marker date="1527594124167" expanded="true" signature="1386:1440" ph="/// ИНУТ. ... " />
-            <marker date="1527594124167" expanded="true" signature="1484:1548" ph="/// Б/п транзиторы. ... " />
-            <marker date="1527594124167" expanded="true" signature="1592:1656" ph="/// У/п транзиторы. ... " />
-            <marker date="1527594124167" expanded="true" signature="1700:1765" ph="/// Опер. усилители. ... " />
-            <marker date="1527594124167" expanded="true" signature="1809:1873" ph="/// Трансформаторы. ... " />
-            <marker date="1527594124167" expanded="true" signature="1917:1986" ph="/// Ид. опер. усилители. ... " />
-            <marker date="1527594124167" expanded="true" signature="2031:2099" ph="/// Ид. трансформаторы. ... " />
-            <marker date="1527594124167" expanded="true" signature="2144:2237" ph="/// Массив данных для узлов заданного резистора. ... " />
-            <marker date="1527594124167" expanded="true" signature="2281:2366" ph="/// Узел Массив сопротивления резистора. ... " />
-            <marker date="1527594124167" expanded="true" signature="2410:2482" ph="/// Значения сетки для ФЧХ. ... " />
-            <marker date="1527594124167" expanded="true" signature="2589:2966" ph="{...}" />
-            <marker date="1527594124167" expanded="true" signature="3020:3574" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/SCS.Core/IElement.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="1" lean-forward="false" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
-          <folding>
-            <marker date="1527597829707" expanded="true" signature="18:231" ph="{...}" />
-            <marker date="1527597829707" expanded="true" signature="50:229" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SCS.Core/ICircuit.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="20" lean-forward="false" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="20" />
-          <folding>
-            <marker date="1527867871703" expanded="true" signature="6:52" ph="..." />
-            <marker date="1527867871703" expanded="true" signature="104:187" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SCS.ConsoleApp/Program.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="30" lean-forward="false" selection-start-line="22" selection-start-column="30" selection-end-line="22" selection-end-column="30" />
-          <folding>
-            <marker date="1528477584164" expanded="false" signature="6:143" ph="..." />
-            <marker date="1528477584164" expanded="true" signature="169:1367" ph="{...}" />
-            <marker date="1528477584164" expanded="true" signature="205:1365" ph="{...}" />
-            <marker date="1528477584164" expanded="true" signature="258:1359" ph="{...}" />
-            <marker date="1528477584164" expanded="true" signature="376:1348" ph="{...}" />
-            <marker date="1528477584164" expanded="true" signature="424:613" ph="{...}" />
-            <marker date="1528477584164" expanded="true" signature="661:850" ph="{...}" />
-            <marker date="1528477584164" expanded="true" signature="898:1092" ph="{...}" />
-            <marker date="1528477584164" expanded="true" signature="1140:1334" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SCS.ConsoleApp/Implementation/Circuit.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="27" lean-forward="false" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
-          <folding>
-            <marker date="1527867871593" expanded="true" signature="6:68" ph="..." />
-            <marker date="1527867871593" expanded="true" signature="147:219" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SCS.ConsoleApp/Implementation/Element.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="21" lean-forward="false" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
-          <folding>
-            <marker date="1527867541047" expanded="true" signature="94:308" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SCS.Core/Matrix.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1350">
-          <caret line="90" column="42" lean-forward="false" selection-start-line="90" selection-start-column="42" selection-end-line="90" selection-end-column="42" />
-          <folding>
-            <marker date="1527859876903" expanded="true" signature="33:8960" ph="{...}" />
-            <marker date="1527859876903" expanded="true" signature="59:8958" ph="{...}" />
-            <marker date="1527859876903" expanded="true" signature="74:140" ph="/// Двумерный массив. ... " />
-            <marker date="1527859876903" expanded="true" signature="195:277" ph="/// Задает пустую матрицу размером N. ... " />
-            <marker date="1527859876903" expanded="true" signature="306:366" ph="{...}" />
-            <marker date="1527859876903" expanded="true" signature="377:470" ph="/// Задает матрицу с помощью двумерного массива. ... " />
-            <marker date="1527859876903" expanded="true" signature="510:565" ph="{...}" />
-            <marker date="1527859876903" expanded="true" signature="576:659" ph="/// Получение значение ячейки матрицы. ... " />
-            <marker date="1527859876903" expanded="true" signature="707:817" ph="{...}" />
-            <marker date="1527859876903" expanded="true" signature="828:893" ph="/// Сложение матриц. ... " />
-            <marker date="1527859876903" expanded="true" signature="955:1201" ph="{...}" />
-            <marker date="1527859876903" expanded="true" signature="1212:1277" ph="/// Разность матриц. ... " />
-            <marker date="1527859876903" expanded="true" signature="1339:1585" ph="{...}" />
-            <marker date="1527859876903" expanded="true" signature="1596:1672" ph="/// Умножение матрицы на число. ... " />
-            <marker date="1527859876903" expanded="true" signature="1733:1972" ph="{...}" />
-            <marker date="1527859876903" expanded="true" signature="1983:2060" ph="/// Умножение матрицы на вектор. ... " />
-            <marker date="1527859876903" expanded="true" signature="2120:2543" ph="{...}" />
-            <marker date="1527859876903" expanded="true" signature="2553:2619" ph="/// Умножение матриц. ... " />
-            <marker date="1527859876903" expanded="true" signature="2681:3010" ph="{...}" />
-            <marker date="1527859876903" expanded="true" signature="3020:3098" ph="/// Деление матрицы на константу. ... " />
-            <marker date="1527859876903" expanded="true" signature="3158:3405" ph="{...}" />
-            <marker date="1527859876903" expanded="true" signature="3415:3546" ph="/// Возвращает матрицу без указанных строки и столбца. Исходная матрица не изменяется. ... " />
-            <marker date="1527859876903" expanded="true" signature="3598:4214" ph="{...}" />
-            <marker date="1527859876903" expanded="true" signature="3886:4181" ph="{...}" />
-            <marker date="1527859876903" expanded="true" signature="4024:4167" ph="{...}" />
-            <marker date="1527859876903" expanded="true" signature="4224:4304" ph="/// Единичная матрица размером NxN. ... " />
-            <marker date="1527859876903" expanded="true" signature="4342:4551" ph="{...}" />
-            <marker date="1527859876903" expanded="true" signature="4561:4630" ph="/* Детерминант матрицы. ... */" />
-            <marker date="1527859876903" expanded="true" signature="4561:5517" ph="/// Детерминант матрицы. ... " />
-            <marker date="1527859876903" expanded="true" signature="4631:5436" ph="/* public double Determinant ... */" />
-            <marker date="1527859876903" expanded="true" signature="5447:5517" ph="/* Определитель матрицы. ... */" />
-            <marker date="1527859876903" expanded="true" signature="5569:5736" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SCS.Core/Vector.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="9" lean-forward="false" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
-          <folding>
-            <marker date="1527866609531" expanded="true" signature="6:92" ph="..." />
-            <marker date="1527866609531" expanded="true" signature="112:5998" ph="{...}" />
-            <marker date="1527866609531" expanded="true" signature="138:5996" ph="{...}" />
-            <marker date="1527866609531" expanded="true" signature="154:253" ph="/// Итератор, выполняющий перебор элементов популяции. ... " />
-            <marker date="1527866609531" expanded="true" signature="296:425" ph="{...}" />
-            <marker date="1527866609531" expanded="true" signature="349:415" ph="{...}" />
-            <marker date="1527866609531" expanded="true" signature="435:491" ph="/// Вектор. ... " />
-            <marker date="1527866609531" expanded="true" signature="547:626" ph="/// Пустой вектор, размерностью i. ... " />
-            <marker date="1527866609531" expanded="true" signature="655:774" ph="{...}" />
-            <marker date="1527866609531" expanded="true" signature="785:876" ph="/// Заполнение вектора путем передачи массива. ... " />
-            <marker date="1527866609531" expanded="true" signature="926:1049" ph="{...}" />
-            <marker date="1527866609531" expanded="true" signature="1059:1172" ph="/// Коснтруктор, инициализирущий вектор посредством другого вектора. ... " />
-            <marker date="1527866609531" expanded="true" signature="1209:1410" ph="{...}" />
-            <marker date="1527866609531" expanded="true" signature="1324:1400" ph="{...}" />
-            <marker date="1527866609531" expanded="true" signature="1420:1531" ph="/// Коснтруктор, инициализирущий вектор посредством массива строк. ... " />
-            <marker date="1527866609531" expanded="true" signature="1583:1804" ph="{...}" />
-            <marker date="1527866609531" expanded="true" signature="1700:1794" ph="{...}" />
-            <marker date="1527866609531" expanded="true" signature="1814:1955" ph="/// Коснтруктор, инициализирущий вектор посредством строки, где каждая точка разделена пробелом. ... " />
-            <marker date="1527866609531" expanded="true" signature="1996:2340" ph="{...}" />
-            <marker date="1527866609531" expanded="true" signature="2350:2426" ph="/// Операция разности векоторв. ... " />
-            <marker date="1527866609531" expanded="true" signature="2489:2669" ph="{...}" />
-            <marker date="1527866609531" expanded="true" signature="2680:2764" ph="/// Инвертируем значения полей вектора. ... " />
-            <marker date="1527866609531" expanded="true" signature="2816:2918" ph="{...}" />
-            <marker date="1527866609531" expanded="true" signature="2929:3005" ph="/// Операция сложения векторов. ... " />
-            <marker date="1527866609531" expanded="true" signature="3068:3255" ph="{...}" />
-            <marker date="1527866609531" expanded="true" signature="3265:3340" ph="/// Сложение числа с вектором. ... " />
-            <marker date="1527866609531" expanded="true" signature="3401:3573" ph="{...}" />
-            <marker date="1527866609531" expanded="true" signature="3584:3668" ph="/// Операция умножения числа на вектор. ... " />
-            <marker date="1527866609531" expanded="true" signature="3729:3902" ph="{...}" />
-            <marker date="1527866609531" expanded="true" signature="3913:3999" ph="/// Операция умножения вектора на вектор. ... " />
-            <marker date="1527866609531" expanded="true" signature="4061:4198" ph="{...}" />
-            <marker date="1527866609531" expanded="true" signature="4260:4410" ph="{...}" />
-            <marker date="1527866609531" expanded="true" signature="4420:4515" ph="/// Умножение вектора на транспонированный вектор. ... " />
-            <marker date="1527866609531" expanded="true" signature="4581:4928" ph="{...}" />
-            <marker date="1527866609531" expanded="true" signature="4938:5019" ph="/// Строковое представление вектора. ... " />
-            <marker date="1527866609531" expanded="true" signature="5061:5262" ph="{...}" />
-            <marker date="1527866609531" expanded="true" signature="5273:5491" ph="/* public double Norma() ... */" />
-            <marker date="1527866609531" expanded="true" signature="5501:5563" ph="///Норма вектора. ... " />
-            <marker date="1527866609531" expanded="true" signature="5657:5730" ph="/// Значение ячейки вектора. ... " />
-            <marker date="1527866609531" expanded="true" signature="5768:5872" ph="{...}" />
-            <marker date="1527866609531" expanded="true" signature="5881:5944" ph="/// Длина вектора. ... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SCS.Core/ElementType.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="18" lean-forward="false" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
-          <folding>
-            <marker date="1527868832063" expanded="true" signature="18:122" ph="{...}" />
-            <marker date="1527868832063" expanded="true" signature="48:120" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frqvs/App.xaml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frqvs/App.xaml.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="21" lean-forward="false" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frqvs/frqvsDlgData.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-          <folding>
-            <marker date="1527594760655" expanded="false" signature="6:115" ph="..." />
-            <marker date="1527594760655" expanded="true" signature="132:1089" ph="{...}" />
-            <marker date="1527594760655" expanded="true" signature="168:1087" ph="{...}" />
-            <marker date="1527594760655" expanded="true" signature="183:1081" ph="Функции" />
-            <marker date="1527594760655" expanded="true" signature="207:314" ph="/// Если нужно, выполняет открытие формы для ввода резисторов. ... " />
-            <marker date="1527594760655" expanded="true" signature="344:491" ph="{...}" />
-            <marker date="1527594760655" expanded="true" signature="376:481" ph="{...}" />
-            <marker date="1527594760655" expanded="true" signature="554:1062" ph="{...}" />
-            <marker date="1527594760655" expanded="true" signature="590:1013" ph="{...}" />
-            <marker date="1527594760655" expanded="true" signature="646:766" ph="/* IDC_WebBrowser WebBrowser = new IDC_WebBrowser(); ... */" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frqvs/Data.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1527594124167" expanded="false" signature="6:137" ph="..." />
-            <marker date="1527594124167" expanded="true" signature="154:3582" ph="{...}" />
-            <marker date="1527594124167" expanded="true" signature="161:226" ph="/// Тип браузера приложения. ... " />
-            <marker date="1527594124167" expanded="true" signature="247:440" ph="{...}" />
-            <marker date="1527594124167" expanded="true" signature="262:329" ph="/// Системный браузер. ... " />
-            <marker date="1527594124167" expanded="true" signature="354:422" ph="/// Собственный браузер ... " />
-            <marker date="1527594124167" expanded="true" signature="445:531" ph="/// Статический класс хранения глобальных данных. ... " />
-            <marker date="1527594124167" expanded="true" signature="553:3580" ph="{...}" />
-            <marker date="1527594124167" expanded="true" signature="653:2534" ph="Данные" />
-            <marker date="1527594124167" expanded="true" signature="676:737" ph="/// Число узлов. ... " />
-            <marker date="1527594124167" expanded="true" signature="780:839" ph="/// Резисторы. ... " />
-            <marker date="1527594124167" expanded="true" signature="882:943" ph="/// Конедсаторы. ... " />
-            <marker date="1527594124167" expanded="true" signature="986:1049" ph="/// Индуктивности. ... " />
-            <marker date="1527594124167" expanded="true" signature="1092:1146" ph="/// ИТУН. ... " />
-            <marker date="1527594124167" expanded="true" signature="1190:1244" ph="/// ИНУН. ... " />
-            <marker date="1527594124167" expanded="true" signature="1288:1342" ph="/// ИТУТ. ... " />
-            <marker date="1527594124167" expanded="true" signature="1386:1440" ph="/// ИНУТ. ... " />
-            <marker date="1527594124167" expanded="true" signature="1484:1548" ph="/// Б/п транзиторы. ... " />
-            <marker date="1527594124167" expanded="true" signature="1592:1656" ph="/// У/п транзиторы. ... " />
-            <marker date="1527594124167" expanded="true" signature="1700:1765" ph="/// Опер. усилители. ... " />
-            <marker date="1527594124167" expanded="true" signature="1809:1873" ph="/// Трансформаторы. ... " />
-            <marker date="1527594124167" expanded="true" signature="1917:1986" ph="/// Ид. опер. усилители. ... " />
-            <marker date="1527594124167" expanded="true" signature="2031:2099" ph="/// Ид. трансформаторы. ... " />
-            <marker date="1527594124167" expanded="true" signature="2144:2237" ph="/// Массив данных для узлов заданного резистора. ... " />
-            <marker date="1527594124167" expanded="true" signature="2281:2366" ph="/// Узел Массив сопротивления резистора. ... " />
-            <marker date="1527594124167" expanded="true" signature="2410:2482" ph="/// Значения сетки для ФЧХ. ... " />
-            <marker date="1527594124167" expanded="true" signature="2589:2966" ph="{...}" />
-            <marker date="1527594124167" expanded="true" signature="3020:3574" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SCS.Core/IElement.cs">
+    <entry file="file://$PROJECT_DIR$/SCS.Core/Abstraction/IElement.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="9" column="5" lean-forward="false" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
-          <folding>
-            <marker date="1527597829707" expanded="true" signature="18:231" ph="{...}" />
-            <marker date="1527597829707" expanded="true" signature="50:229" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/SCS.Core/ICircuit.cs">
+    <entry file="file://$PROJECT_DIR$/SCS.Core/Abstraction/ICircuit.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="8" column="8" lean-forward="false" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
-          <folding>
-            <marker date="1527867871703" expanded="true" signature="6:52" ph="..." />
-            <marker date="1527867871703" expanded="true" signature="104:187" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/SCS.Core/Matrix.cs">
+    <entry file="file://$PROJECT_DIR$/SCS.Core/Abstraction/Matrix.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1350">
           <caret line="90" column="42" lean-forward="false" selection-start-line="90" selection-start-column="42" selection-end-line="90" selection-end-column="42" />
-          <folding>
-            <marker date="1527859876903" expanded="true" signature="33:8960" ph="{...}" />
-            <marker date="1527859876903" expanded="true" signature="59:8958" ph="{...}" />
-            <marker date="1527859876903" expanded="true" signature="74:140" ph="/// Двумерный массив. ... " />
-            <marker date="1527859876903" expanded="true" signature="195:277" ph="/// Задает пустую матрицу размером N. ... " />
-            <marker date="1527859876903" expanded="true" signature="306:366" ph="{...}" />
-            <marker date="1527859876903" expanded="true" signature="377:470" ph="/// Задает матрицу с помощью двумерного массива. ... " />
-            <marker date="1527859876903" expanded="true" signature="510:565" ph="{...}" />
-            <marker date="1527859876903" expanded="true" signature="576:659" ph="/// Получение значение ячейки матрицы. ... " />
-            <marker date="1527859876903" expanded="true" signature="707:817" ph="{...}" />
-            <marker date="1527859876903" expanded="true" signature="828:893" ph="/// Сложение матриц. ... " />
-            <marker date="1527859876903" expanded="true" signature="955:1201" ph="{...}" />
-            <marker date="1527859876903" expanded="true" signature="1212:1277" ph="/// Разность матриц. ... " />
-            <marker date="1527859876903" expanded="true" signature="1339:1585" ph="{...}" />
-            <marker date="1527859876903" expanded="true" signature="1596:1672" ph="/// Умножение матрицы на число. ... " />
-            <marker date="1527859876903" expanded="true" signature="1733:1972" ph="{...}" />
-            <marker date="1527859876903" expanded="true" signature="1983:2060" ph="/// Умножение матрицы на вектор. ... " />
-            <marker date="1527859876903" expanded="true" signature="2120:2543" ph="{...}" />
-            <marker date="1527859876903" expanded="true" signature="2553:2619" ph="/// Умножение матриц. ... " />
-            <marker date="1527859876903" expanded="true" signature="2681:3010" ph="{...}" />
-            <marker date="1527859876903" expanded="true" signature="3020:3098" ph="/// Деление матрицы на константу. ... " />
-            <marker date="1527859876903" expanded="true" signature="3158:3405" ph="{...}" />
-            <marker date="1527859876903" expanded="true" signature="3415:3546" ph="/// Возвращает матрицу без указанных строки и столбца. Исходная матрица не изменяется. ... " />
-            <marker date="1527859876903" expanded="true" signature="3598:4214" ph="{...}" />
-            <marker date="1527859876903" expanded="true" signature="3886:4181" ph="{...}" />
-            <marker date="1527859876903" expanded="true" signature="4024:4167" ph="{...}" />
-            <marker date="1527859876903" expanded="true" signature="4224:4304" ph="/// Единичная матрица размером NxN. ... " />
-            <marker date="1527859876903" expanded="true" signature="4342:4551" ph="{...}" />
-            <marker date="1527859876903" expanded="true" signature="4561:4630" ph="/* Детерминант матрицы. ... */" />
-            <marker date="1527859876903" expanded="true" signature="4561:5517" ph="/// Детерминант матрицы. ... " />
-            <marker date="1527859876903" expanded="true" signature="4631:5436" ph="/* public double Determinant ... */" />
-            <marker date="1527859876903" expanded="true" signature="5447:5517" ph="/* Определитель матрицы. ... */" />
-            <marker date="1527859876903" expanded="true" signature="5569:5736" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/SCS.Core/ElementType.cs">
+    <entry file="file://$PROJECT_DIR$/SCS.Core/Abstraction/ElementType.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="4" column="8" lean-forward="false" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
-          <folding>
-            <marker date="1527868832063" expanded="true" signature="18:122" ph="{...}" />
-            <marker date="1527868832063" expanded="true" signature="48:120" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/SCS.Core/Vector.cs">
+    <entry file="file://$PROJECT_DIR$/SCS.Core/OptimizationMethods/Vector.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3180">
           <caret line="212" column="0" lean-forward="true" selection-start-line="212" selection-start-column="0" selection-end-line="212" selection-end-column="0" />
-          <folding>
-            <marker date="1527866609531" expanded="true" signature="6:92" ph="..." />
-            <marker date="1527866609531" expanded="true" signature="112:5998" ph="{...}" />
-            <marker date="1527866609531" expanded="true" signature="138:5996" ph="{...}" />
-            <marker date="1527866609531" expanded="true" signature="154:253" ph="/// Итератор, выполняющий перебор элементов популяции. ... " />
-            <marker date="1527866609531" expanded="true" signature="296:425" ph="{...}" />
-            <marker date="1527866609531" expanded="true" signature="349:415" ph="{...}" />
-            <marker date="1527866609531" expanded="true" signature="435:491" ph="/// Вектор. ... " />
-            <marker date="1527866609531" expanded="true" signature="547:626" ph="/// Пустой вектор, размерностью i. ... " />
-            <marker date="1527866609531" expanded="true" signature="655:774" ph="{...}" />
-            <marker date="1527866609531" expanded="true" signature="785:876" ph="/// Заполнение вектора путем передачи массива. ... " />
-            <marker date="1527866609531" expanded="true" signature="926:1049" ph="{...}" />
-            <marker date="1527866609531" expanded="true" signature="1059:1172" ph="/// Коснтруктор, инициализирущий вектор посредством другого вектора. ... " />
-            <marker date="1527866609531" expanded="true" signature="1209:1410" ph="{...}" />
-            <marker date="1527866609531" expanded="true" signature="1324:1400" ph="{...}" />
-            <marker date="1527866609531" expanded="true" signature="1420:1531" ph="/// Коснтруктор, инициализирущий вектор посредством массива строк. ... " />
-            <marker date="1527866609531" expanded="true" signature="1583:1804" ph="{...}" />
-            <marker date="1527866609531" expanded="true" signature="1700:1794" ph="{...}" />
-            <marker date="1527866609531" expanded="true" signature="1814:1955" ph="/// Коснтруктор, инициализирущий вектор посредством строки, где каждая точка разделена пробелом. ... " />
-            <marker date="1527866609531" expanded="true" signature="1996:2340" ph="{...}" />
-            <marker date="1527866609531" expanded="true" signature="2350:2426" ph="/// Операция разности векоторв. ... " />
-            <marker date="1527866609531" expanded="true" signature="2489:2669" ph="{...}" />
-            <marker date="1527866609531" expanded="true" signature="2680:2764" ph="/// Инвертируем значения полей вектора. ... " />
-            <marker date="1527866609531" expanded="true" signature="2816:2918" ph="{...}" />
-            <marker date="1527866609531" expanded="true" signature="2929:3005" ph="/// Операция сложения векторов. ... " />
-            <marker date="1527866609531" expanded="true" signature="3068:3255" ph="{...}" />
-            <marker date="1527866609531" expanded="true" signature="3265:3340" ph="/// Сложение числа с вектором. ... " />
-            <marker date="1527866609531" expanded="true" signature="3401:3573" ph="{...}" />
-            <marker date="1527866609531" expanded="true" signature="3584:3668" ph="/// Операция умножения числа на вектор. ... " />
-            <marker date="1527866609531" expanded="true" signature="3729:3902" ph="{...}" />
-            <marker date="1527866609531" expanded="true" signature="3913:3999" ph="/// Операция умножения вектора на вектор. ... " />
-            <marker date="1527866609531" expanded="true" signature="4061:4198" ph="{...}" />
-            <marker date="1527866609531" expanded="true" signature="4260:4410" ph="{...}" />
-            <marker date="1527866609531" expanded="true" signature="4420:4515" ph="/// Умножение вектора на транспонированный вектор. ... " />
-            <marker date="1527866609531" expanded="true" signature="4581:4928" ph="{...}" />
-            <marker date="1527866609531" expanded="true" signature="4938:5019" ph="/// Строковое представление вектора. ... " />
-            <marker date="1527866609531" expanded="true" signature="5061:5262" ph="{...}" />
-            <marker date="1527866609531" expanded="true" signature="5273:5491" ph="/* public double Norma() ... */" />
-            <marker date="1527866609531" expanded="true" signature="5501:5563" ph="///Норма вектора. ... " />
-            <marker date="1527866609531" expanded="true" signature="5657:5730" ph="/// Значение ячейки вектора. ... " />
-            <marker date="1527866609531" expanded="true" signature="5768:5872" ph="{...}" />
-            <marker date="1527866609531" expanded="true" signature="5881:5944" ph="/// Длина вектора. ... " />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -671,18 +330,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
           <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-          <folding>
-            <marker date="1527594760655" expanded="false" signature="6:115" ph="..." />
-            <marker date="1527594760655" expanded="true" signature="132:1089" ph="{...}" />
-            <marker date="1527594760655" expanded="true" signature="168:1087" ph="{...}" />
-            <marker date="1527594760655" expanded="true" signature="183:1081" ph="Функции" />
-            <marker date="1527594760655" expanded="true" signature="207:314" ph="/// Если нужно, выполняет открытие формы для ввода резисторов. ... " />
-            <marker date="1527594760655" expanded="true" signature="344:491" ph="{...}" />
-            <marker date="1527594760655" expanded="true" signature="376:481" ph="{...}" />
-            <marker date="1527594760655" expanded="true" signature="554:1062" ph="{...}" />
-            <marker date="1527594760655" expanded="true" signature="590:1013" ph="{...}" />
-            <marker date="1527594760655" expanded="true" signature="646:766" ph="/* IDC_WebBrowser WebBrowser = new IDC_WebBrowser(); ... */" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -690,160 +337,41 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1527594124167" expanded="false" signature="6:137" ph="..." />
-            <marker date="1527594124167" expanded="true" signature="154:3582" ph="{...}" />
-            <marker date="1527594124167" expanded="true" signature="161:226" ph="/// Тип браузера приложения. ... " />
-            <marker date="1527594124167" expanded="true" signature="247:440" ph="{...}" />
-            <marker date="1527594124167" expanded="true" signature="262:329" ph="/// Системный браузер. ... " />
-            <marker date="1527594124167" expanded="true" signature="354:422" ph="/// Собственный браузер ... " />
-            <marker date="1527594124167" expanded="true" signature="445:531" ph="/// Статический класс хранения глобальных данных. ... " />
-            <marker date="1527594124167" expanded="true" signature="553:3580" ph="{...}" />
-            <marker date="1527594124167" expanded="true" signature="653:2534" ph="Данные" />
-            <marker date="1527594124167" expanded="true" signature="676:737" ph="/// Число узлов. ... " />
-            <marker date="1527594124167" expanded="true" signature="780:839" ph="/// Резисторы. ... " />
-            <marker date="1527594124167" expanded="true" signature="882:943" ph="/// Конедсаторы. ... " />
-            <marker date="1527594124167" expanded="true" signature="986:1049" ph="/// Индуктивности. ... " />
-            <marker date="1527594124167" expanded="true" signature="1092:1146" ph="/// ИТУН. ... " />
-            <marker date="1527594124167" expanded="true" signature="1190:1244" ph="/// ИНУН. ... " />
-            <marker date="1527594124167" expanded="true" signature="1288:1342" ph="/// ИТУТ. ... " />
-            <marker date="1527594124167" expanded="true" signature="1386:1440" ph="/// ИНУТ. ... " />
-            <marker date="1527594124167" expanded="true" signature="1484:1548" ph="/// Б/п транзиторы. ... " />
-            <marker date="1527594124167" expanded="true" signature="1592:1656" ph="/// У/п транзиторы. ... " />
-            <marker date="1527594124167" expanded="true" signature="1700:1765" ph="/// Опер. усилители. ... " />
-            <marker date="1527594124167" expanded="true" signature="1809:1873" ph="/// Трансформаторы. ... " />
-            <marker date="1527594124167" expanded="true" signature="1917:1986" ph="/// Ид. опер. усилители. ... " />
-            <marker date="1527594124167" expanded="true" signature="2031:2099" ph="/// Ид. трансформаторы. ... " />
-            <marker date="1527594124167" expanded="true" signature="2144:2237" ph="/// Массив данных для узлов заданного резистора. ... " />
-            <marker date="1527594124167" expanded="true" signature="2281:2366" ph="/// Узел Массив сопротивления резистора. ... " />
-            <marker date="1527594124167" expanded="true" signature="2410:2482" ph="/// Значения сетки для ФЧХ. ... " />
-            <marker date="1527594124167" expanded="true" signature="2589:2966" ph="{...}" />
-            <marker date="1527594124167" expanded="true" signature="3020:3574" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/SCS.Core/IElement.cs">
+    <entry file="file://$PROJECT_DIR$/SCS.Core/Abstraction/IElement.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="9" column="5" lean-forward="false" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
-          <folding>
-            <marker date="1527597829707" expanded="true" signature="18:231" ph="{...}" />
-            <marker date="1527597829707" expanded="true" signature="50:229" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/SCS.Core/ICircuit.cs">
+    <entry file="file://$PROJECT_DIR$/SCS.Core/Abstraction/ICircuit.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="8" column="8" lean-forward="false" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
-          <folding>
-            <marker date="1527867871703" expanded="true" signature="6:52" ph="..." />
-            <marker date="1527867871703" expanded="true" signature="104:187" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/SCS.Core/Vector.cs">
+    <entry file="file://$PROJECT_DIR$/SCS.Core/OptimizationMethods/Vector.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
           <caret line="15" column="25" lean-forward="false" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
-          <folding>
-            <marker date="1527866609531" expanded="true" signature="6:92" ph="..." />
-            <marker date="1527866609531" expanded="true" signature="112:5998" ph="{...}" />
-            <marker date="1527866609531" expanded="true" signature="138:5996" ph="{...}" />
-            <marker date="1527866609531" expanded="true" signature="154:253" ph="/// Итератор, выполняющий перебор элементов популяции. ... " />
-            <marker date="1527866609531" expanded="true" signature="296:425" ph="{...}" />
-            <marker date="1527866609531" expanded="true" signature="349:415" ph="{...}" />
-            <marker date="1527866609531" expanded="true" signature="435:491" ph="/// Вектор. ... " />
-            <marker date="1527866609531" expanded="true" signature="547:626" ph="/// Пустой вектор, размерностью i. ... " />
-            <marker date="1527866609531" expanded="true" signature="655:774" ph="{...}" />
-            <marker date="1527866609531" expanded="true" signature="785:876" ph="/// Заполнение вектора путем передачи массива. ... " />
-            <marker date="1527866609531" expanded="true" signature="926:1049" ph="{...}" />
-            <marker date="1527866609531" expanded="true" signature="1059:1172" ph="/// Коснтруктор, инициализирущий вектор посредством другого вектора. ... " />
-            <marker date="1527866609531" expanded="true" signature="1209:1410" ph="{...}" />
-            <marker date="1527866609531" expanded="true" signature="1324:1400" ph="{...}" />
-            <marker date="1527866609531" expanded="true" signature="1420:1531" ph="/// Коснтруктор, инициализирущий вектор посредством массива строк. ... " />
-            <marker date="1527866609531" expanded="true" signature="1583:1804" ph="{...}" />
-            <marker date="1527866609531" expanded="true" signature="1700:1794" ph="{...}" />
-            <marker date="1527866609531" expanded="true" signature="1814:1955" ph="/// Коснтруктор, инициализирущий вектор посредством строки, где каждая точка разделена пробелом. ... " />
-            <marker date="1527866609531" expanded="true" signature="1996:2340" ph="{...}" />
-            <marker date="1527866609531" expanded="true" signature="2350:2426" ph="/// Операция разности векоторв. ... " />
-            <marker date="1527866609531" expanded="true" signature="2489:2669" ph="{...}" />
-            <marker date="1527866609531" expanded="true" signature="2680:2764" ph="/// Инвертируем значения полей вектора. ... " />
-            <marker date="1527866609531" expanded="true" signature="2816:2918" ph="{...}" />
-            <marker date="1527866609531" expanded="true" signature="2929:3005" ph="/// Операция сложения векторов. ... " />
-            <marker date="1527866609531" expanded="true" signature="3068:3255" ph="{...}" />
-            <marker date="1527866609531" expanded="true" signature="3265:3340" ph="/// Сложение числа с вектором. ... " />
-            <marker date="1527866609531" expanded="true" signature="3401:3573" ph="{...}" />
-            <marker date="1527866609531" expanded="true" signature="3584:3668" ph="/// Операция умножения числа на вектор. ... " />
-            <marker date="1527866609531" expanded="true" signature="3729:3902" ph="{...}" />
-            <marker date="1527866609531" expanded="true" signature="3913:3999" ph="/// Операция умножения вектора на вектор. ... " />
-            <marker date="1527866609531" expanded="true" signature="4061:4198" ph="{...}" />
-            <marker date="1527866609531" expanded="true" signature="4260:4410" ph="{...}" />
-            <marker date="1527866609531" expanded="true" signature="4420:4515" ph="/// Умножение вектора на транспонированный вектор. ... " />
-            <marker date="1527866609531" expanded="true" signature="4581:4928" ph="{...}" />
-            <marker date="1527866609531" expanded="true" signature="4938:5019" ph="/// Строковое представление вектора. ... " />
-            <marker date="1527866609531" expanded="true" signature="5061:5262" ph="{...}" />
-            <marker date="1527866609531" expanded="true" signature="5273:5491" ph="/* public double Norma() ... */" />
-            <marker date="1527866609531" expanded="true" signature="5501:5563" ph="///Норма вектора. ... " />
-            <marker date="1527866609531" expanded="true" signature="5657:5730" ph="/// Значение ячейки вектора. ... " />
-            <marker date="1527866609531" expanded="true" signature="5768:5872" ph="{...}" />
-            <marker date="1527866609531" expanded="true" signature="5881:5944" ph="/// Длина вектора. ... " />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/SCS.Core/ElementType.cs">
+    <entry file="file://$PROJECT_DIR$/SCS.Core/Abstraction/ElementType.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="4" column="8" lean-forward="false" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
-          <folding>
-            <marker date="1527868832063" expanded="true" signature="18:122" ph="{...}" />
-            <marker date="1527868832063" expanded="true" signature="48:120" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/SCS.Core/Matrix.cs">
+    <entry file="file://$PROJECT_DIR$/SCS.Core/Abstraction/Matrix.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3465">
           <caret line="231" column="55" lean-forward="false" selection-start-line="231" selection-start-column="55" selection-end-line="231" selection-end-column="55" />
-          <folding>
-            <marker date="1527859876903" expanded="true" signature="33:8960" ph="{...}" />
-            <marker date="1527859876903" expanded="true" signature="59:8958" ph="{...}" />
-            <marker date="1527859876903" expanded="true" signature="74:140" ph="/// Двумерный массив. ... " />
-            <marker date="1527859876903" expanded="true" signature="195:277" ph="/// Задает пустую матрицу размером N. ... " />
-            <marker date="1527859876903" expanded="true" signature="306:366" ph="{...}" />
-            <marker date="1527859876903" expanded="true" signature="377:470" ph="/// Задает матрицу с помощью двумерного массива. ... " />
-            <marker date="1527859876903" expanded="true" signature="510:565" ph="{...}" />
-            <marker date="1527859876903" expanded="true" signature="576:659" ph="/// Получение значение ячейки матрицы. ... " />
-            <marker date="1527859876903" expanded="true" signature="707:817" ph="{...}" />
-            <marker date="1527859876903" expanded="true" signature="828:893" ph="/// Сложение матриц. ... " />
-            <marker date="1527859876903" expanded="true" signature="955:1201" ph="{...}" />
-            <marker date="1527859876903" expanded="true" signature="1212:1277" ph="/// Разность матриц. ... " />
-            <marker date="1527859876903" expanded="true" signature="1339:1585" ph="{...}" />
-            <marker date="1527859876903" expanded="true" signature="1596:1672" ph="/// Умножение матрицы на число. ... " />
-            <marker date="1527859876903" expanded="true" signature="1733:1972" ph="{...}" />
-            <marker date="1527859876903" expanded="true" signature="1983:2060" ph="/// Умножение матрицы на вектор. ... " />
-            <marker date="1527859876903" expanded="true" signature="2120:2543" ph="{...}" />
-            <marker date="1527859876903" expanded="true" signature="2553:2619" ph="/// Умножение матриц. ... " />
-            <marker date="1527859876903" expanded="true" signature="2681:3010" ph="{...}" />
-            <marker date="1527859876903" expanded="true" signature="3020:3098" ph="/// Деление матрицы на константу. ... " />
-            <marker date="1527859876903" expanded="true" signature="3158:3405" ph="{...}" />
-            <marker date="1527859876903" expanded="true" signature="3415:3546" ph="/// Возвращает матрицу без указанных строки и столбца. Исходная матрица не изменяется. ... " />
-            <marker date="1527859876903" expanded="true" signature="3598:4214" ph="{...}" />
-            <marker date="1527859876903" expanded="true" signature="3886:4181" ph="{...}" />
-            <marker date="1527859876903" expanded="true" signature="4024:4167" ph="{...}" />
-            <marker date="1527859876903" expanded="true" signature="4224:4304" ph="/// Единичная матрица размером NxN. ... " />
-            <marker date="1527859876903" expanded="true" signature="4342:4551" ph="{...}" />
-            <marker date="1527859876903" expanded="true" signature="4561:4630" ph="/* Детерминант матрицы. ... */" />
-            <marker date="1527859876903" expanded="true" signature="4561:5517" ph="/// Детерминант матрицы. ... " />
-            <marker date="1527859876903" expanded="true" signature="4631:5436" ph="/* public double Determinant ... */" />
-            <marker date="1527859876903" expanded="true" signature="5447:5517" ph="/* Определитель матрицы. ... */" />
-            <marker date="1527859876903" expanded="true" signature="5569:5736" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -882,18 +410,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
           <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-          <folding>
-            <marker date="1527594760655" expanded="false" signature="6:115" ph="..." />
-            <marker date="1527594760655" expanded="true" signature="132:1089" ph="{...}" />
-            <marker date="1527594760655" expanded="true" signature="168:1087" ph="{...}" />
-            <marker date="1527594760655" expanded="true" signature="183:1081" ph="Функции" />
-            <marker date="1527594760655" expanded="true" signature="207:314" ph="/// Если нужно, выполняет открытие формы для ввода резисторов. ... " />
-            <marker date="1527594760655" expanded="true" signature="344:491" ph="{...}" />
-            <marker date="1527594760655" expanded="true" signature="376:481" ph="{...}" />
-            <marker date="1527594760655" expanded="true" signature="554:1062" ph="{...}" />
-            <marker date="1527594760655" expanded="true" signature="590:1013" ph="{...}" />
-            <marker date="1527594760655" expanded="true" signature="646:766" ph="/* IDC_WebBrowser WebBrowser = new IDC_WebBrowser(); ... */" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -902,127 +418,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1527594124167" expanded="false" signature="6:137" ph="..." />
-            <marker date="1527594124167" expanded="true" signature="154:3582" ph="{...}" />
-            <marker date="1527594124167" expanded="true" signature="161:226" ph="/// Тип браузера приложения. ... " />
-            <marker date="1527594124167" expanded="true" signature="247:440" ph="{...}" />
-            <marker date="1527594124167" expanded="true" signature="262:329" ph="/// Системный браузер. ... " />
-            <marker date="1527594124167" expanded="true" signature="354:422" ph="/// Собственный браузер ... " />
-            <marker date="1527594124167" expanded="true" signature="445:531" ph="/// Статический класс хранения глобальных данных. ... " />
-            <marker date="1527594124167" expanded="true" signature="553:3580" ph="{...}" />
-            <marker date="1527594124167" expanded="true" signature="653:2534" ph="Данные" />
-            <marker date="1527594124167" expanded="true" signature="676:737" ph="/// Число узлов. ... " />
-            <marker date="1527594124167" expanded="true" signature="780:839" ph="/// Резисторы. ... " />
-            <marker date="1527594124167" expanded="true" signature="882:943" ph="/// Конедсаторы. ... " />
-            <marker date="1527594124167" expanded="true" signature="986:1049" ph="/// Индуктивности. ... " />
-            <marker date="1527594124167" expanded="true" signature="1092:1146" ph="/// ИТУН. ... " />
-            <marker date="1527594124167" expanded="true" signature="1190:1244" ph="/// ИНУН. ... " />
-            <marker date="1527594124167" expanded="true" signature="1288:1342" ph="/// ИТУТ. ... " />
-            <marker date="1527594124167" expanded="true" signature="1386:1440" ph="/// ИНУТ. ... " />
-            <marker date="1527594124167" expanded="true" signature="1484:1548" ph="/// Б/п транзиторы. ... " />
-            <marker date="1527594124167" expanded="true" signature="1592:1656" ph="/// У/п транзиторы. ... " />
-            <marker date="1527594124167" expanded="true" signature="1700:1765" ph="/// Опер. усилители. ... " />
-            <marker date="1527594124167" expanded="true" signature="1809:1873" ph="/// Трансформаторы. ... " />
-            <marker date="1527594124167" expanded="true" signature="1917:1986" ph="/// Ид. опер. усилители. ... " />
-            <marker date="1527594124167" expanded="true" signature="2031:2099" ph="/// Ид. трансформаторы. ... " />
-            <marker date="1527594124167" expanded="true" signature="2144:2237" ph="/// Массив данных для узлов заданного резистора. ... " />
-            <marker date="1527594124167" expanded="true" signature="2281:2366" ph="/// Узел Массив сопротивления резистора. ... " />
-            <marker date="1527594124167" expanded="true" signature="2410:2482" ph="/// Значения сетки для ФЧХ. ... " />
-            <marker date="1527594124167" expanded="true" signature="2589:2966" ph="{...}" />
-            <marker date="1527594124167" expanded="true" signature="3020:3574" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SCS.Core/Matrix.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1350">
-          <caret line="90" column="42" lean-forward="false" selection-start-line="90" selection-start-column="42" selection-end-line="90" selection-end-column="42" />
-          <folding>
-            <marker date="1527859876903" expanded="true" signature="33:8960" ph="{...}" />
-            <marker date="1527859876903" expanded="true" signature="59:8958" ph="{...}" />
-            <marker date="1527859876903" expanded="true" signature="74:140" ph="/// Двумерный массив. ... " />
-            <marker date="1527859876903" expanded="true" signature="195:277" ph="/// Задает пустую матрицу размером N. ... " />
-            <marker date="1527859876903" expanded="true" signature="306:366" ph="{...}" />
-            <marker date="1527859876903" expanded="true" signature="377:470" ph="/// Задает матрицу с помощью двумерного массива. ... " />
-            <marker date="1527859876903" expanded="true" signature="510:565" ph="{...}" />
-            <marker date="1527859876903" expanded="true" signature="576:659" ph="/// Получение значение ячейки матрицы. ... " />
-            <marker date="1527859876903" expanded="true" signature="707:817" ph="{...}" />
-            <marker date="1527859876903" expanded="true" signature="828:893" ph="/// Сложение матриц. ... " />
-            <marker date="1527859876903" expanded="true" signature="955:1201" ph="{...}" />
-            <marker date="1527859876903" expanded="true" signature="1212:1277" ph="/// Разность матриц. ... " />
-            <marker date="1527859876903" expanded="true" signature="1339:1585" ph="{...}" />
-            <marker date="1527859876903" expanded="true" signature="1596:1672" ph="/// Умножение матрицы на число. ... " />
-            <marker date="1527859876903" expanded="true" signature="1733:1972" ph="{...}" />
-            <marker date="1527859876903" expanded="true" signature="1983:2060" ph="/// Умножение матрицы на вектор. ... " />
-            <marker date="1527859876903" expanded="true" signature="2120:2543" ph="{...}" />
-            <marker date="1527859876903" expanded="true" signature="2553:2619" ph="/// Умножение матриц. ... " />
-            <marker date="1527859876903" expanded="true" signature="2681:3010" ph="{...}" />
-            <marker date="1527859876903" expanded="true" signature="3020:3098" ph="/// Деление матрицы на константу. ... " />
-            <marker date="1527859876903" expanded="true" signature="3158:3405" ph="{...}" />
-            <marker date="1527859876903" expanded="true" signature="3415:3546" ph="/// Возвращает матрицу без указанных строки и столбца. Исходная матрица не изменяется. ... " />
-            <marker date="1527859876903" expanded="true" signature="3598:4214" ph="{...}" />
-            <marker date="1527859876903" expanded="true" signature="3886:4181" ph="{...}" />
-            <marker date="1527859876903" expanded="true" signature="4024:4167" ph="{...}" />
-            <marker date="1527859876903" expanded="true" signature="4224:4304" ph="/// Единичная матрица размером NxN. ... " />
-            <marker date="1527859876903" expanded="true" signature="4342:4551" ph="{...}" />
-            <marker date="1527859876903" expanded="true" signature="4561:4630" ph="/* Детерминант матрицы. ... */" />
-            <marker date="1527859876903" expanded="true" signature="4561:5517" ph="/// Детерминант матрицы. ... " />
-            <marker date="1527859876903" expanded="true" signature="4631:5436" ph="/* public double Determinant ... */" />
-            <marker date="1527859876903" expanded="true" signature="5447:5517" ph="/* Определитель матрицы. ... */" />
-            <marker date="1527859876903" expanded="true" signature="5569:5736" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SCS.Core/Vector.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="9" lean-forward="false" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
-          <folding>
-            <marker date="1527866609531" expanded="true" signature="6:92" ph="..." />
-            <marker date="1527866609531" expanded="true" signature="112:5998" ph="{...}" />
-            <marker date="1527866609531" expanded="true" signature="138:5996" ph="{...}" />
-            <marker date="1527866609531" expanded="true" signature="154:253" ph="/// Итератор, выполняющий перебор элементов популяции. ... " />
-            <marker date="1527866609531" expanded="true" signature="296:425" ph="{...}" />
-            <marker date="1527866609531" expanded="true" signature="349:415" ph="{...}" />
-            <marker date="1527866609531" expanded="true" signature="435:491" ph="/// Вектор. ... " />
-            <marker date="1527866609531" expanded="true" signature="547:626" ph="/// Пустой вектор, размерностью i. ... " />
-            <marker date="1527866609531" expanded="true" signature="655:774" ph="{...}" />
-            <marker date="1527866609531" expanded="true" signature="785:876" ph="/// Заполнение вектора путем передачи массива. ... " />
-            <marker date="1527866609531" expanded="true" signature="926:1049" ph="{...}" />
-            <marker date="1527866609531" expanded="true" signature="1059:1172" ph="/// Коснтруктор, инициализирущий вектор посредством другого вектора. ... " />
-            <marker date="1527866609531" expanded="true" signature="1209:1410" ph="{...}" />
-            <marker date="1527866609531" expanded="true" signature="1324:1400" ph="{...}" />
-            <marker date="1527866609531" expanded="true" signature="1420:1531" ph="/// Коснтруктор, инициализирущий вектор посредством массива строк. ... " />
-            <marker date="1527866609531" expanded="true" signature="1583:1804" ph="{...}" />
-            <marker date="1527866609531" expanded="true" signature="1700:1794" ph="{...}" />
-            <marker date="1527866609531" expanded="true" signature="1814:1955" ph="/// Коснтруктор, инициализирущий вектор посредством строки, где каждая точка разделена пробелом. ... " />
-            <marker date="1527866609531" expanded="true" signature="1996:2340" ph="{...}" />
-            <marker date="1527866609531" expanded="true" signature="2350:2426" ph="/// Операция разности векоторв. ... " />
-            <marker date="1527866609531" expanded="true" signature="2489:2669" ph="{...}" />
-            <marker date="1527866609531" expanded="true" signature="2680:2764" ph="/// Инвертируем значения полей вектора. ... " />
-            <marker date="1527866609531" expanded="true" signature="2816:2918" ph="{...}" />
-            <marker date="1527866609531" expanded="true" signature="2929:3005" ph="/// Операция сложения векторов. ... " />
-            <marker date="1527866609531" expanded="true" signature="3068:3255" ph="{...}" />
-            <marker date="1527866609531" expanded="true" signature="3265:3340" ph="/// Сложение числа с вектором. ... " />
-            <marker date="1527866609531" expanded="true" signature="3401:3573" ph="{...}" />
-            <marker date="1527866609531" expanded="true" signature="3584:3668" ph="/// Операция умножения числа на вектор. ... " />
-            <marker date="1527866609531" expanded="true" signature="3729:3902" ph="{...}" />
-            <marker date="1527866609531" expanded="true" signature="3913:3999" ph="/// Операция умножения вектора на вектор. ... " />
-            <marker date="1527866609531" expanded="true" signature="4061:4198" ph="{...}" />
-            <marker date="1527866609531" expanded="true" signature="4260:4410" ph="{...}" />
-            <marker date="1527866609531" expanded="true" signature="4420:4515" ph="/// Умножение вектора на транспонированный вектор. ... " />
-            <marker date="1527866609531" expanded="true" signature="4581:4928" ph="{...}" />
-            <marker date="1527866609531" expanded="true" signature="4938:5019" ph="/// Строковое представление вектора. ... " />
-            <marker date="1527866609531" expanded="true" signature="5061:5262" ph="{...}" />
-            <marker date="1527866609531" expanded="true" signature="5273:5491" ph="/* public double Norma() ... */" />
-            <marker date="1527866609531" expanded="true" signature="5501:5563" ph="///Норма вектора. ... " />
-            <marker date="1527866609531" expanded="true" signature="5657:5730" ph="/// Значение ячейки вектора. ... " />
-            <marker date="1527866609531" expanded="true" signature="5768:5872" ph="{...}" />
-            <marker date="1527866609531" expanded="true" signature="5881:5944" ph="/// Длина вектора. ... " />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1030,9 +425,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="7" column="21" lean-forward="false" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
-          <folding>
-            <marker date="1527867541047" expanded="true" signature="94:308" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1040,60 +432,510 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="8" column="27" lean-forward="false" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
-          <folding>
-            <marker date="1527867871593" expanded="true" signature="6:68" ph="..." />
-            <marker date="1527867871593" expanded="true" signature="147:219" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/SCS.Core/ICircuit.cs">
+    <entry file="file://$PROJECT_DIR$/SCS.ConsoleApp/Properties/AssemblyInfo.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="20" lean-forward="false" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="20" />
-          <folding>
-            <marker date="1527867871703" expanded="true" signature="6:52" ph="..." />
-            <marker date="1527867871703" expanded="true" signature="104:187" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SCS.Core/ElementType.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="6" column="18" lean-forward="false" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
-          <folding>
-            <marker date="1527868832063" expanded="true" signature="18:122" ph="{...}" />
-            <marker date="1527868832063" expanded="true" signature="48:120" ph="{...}" />
-          </folding>
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/SCS.ConsoleApp/Program.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="774">
+        <state relative-caret-position="0">
           <caret line="48" column="14" lean-forward="false" selection-start-line="48" selection-start-column="14" selection-end-line="48" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SCS.Core/Abstraction/ICircuit.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="9" column="8" lean-forward="false" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SCS.Core/Abstraction/IElement.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="10" column="1" lean-forward="false" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SCS.Core/Abstraction/ElementType.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="174">
+          <caret line="6" column="18" lean-forward="false" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SCS.Core/Abstraction/Matrix.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2430">
+          <caret line="90" column="42" lean-forward="false" selection-start-line="90" selection-start-column="42" selection-end-line="90" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SCS.Core/Abstraction/IDataPoints.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="203">
+          <caret line="7" column="1" lean-forward="false" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SCS.Core/Abstraction/Implementation.cs" />
+    <entry file="file://$PROJECT_DIR$/SCS.Core/Abstraction/ICalculationRepository.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="290">
+          <caret line="10" column="73" lean-forward="false" selection-start-line="10" selection-start-column="73" selection-end-line="10" selection-end-column="73" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SCS.Core/OptimizationMethods/Vector.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4323">
+          <caret line="192" column="0" lean-forward="false" selection-start-line="192" selection-start-column="0" selection-end-line="192" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SCS.Core/Abstraction/IVector.cs" />
+    <entry file="file://$PROJECT_DIR$/SCS.Core/Abstraction/ICalculationService.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="128">
+          <caret line="5" column="8" lean-forward="false" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SCS.Core/OptimizationMethods/GeneticAlgorithms/RandomService.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="8" column="1" lean-forward="false" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SCS.Core.Last/Class1.cs" />
+    <entry file="file://$PROJECT_DIR$/SCS.Core/OptLogic.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
           <folding>
-            <marker date="1528477584164" expanded="false" signature="6:143" ph="..." />
-            <marker date="1528477584164" expanded="true" signature="169:1367" ph="{...}" />
-            <marker date="1528477584164" expanded="true" signature="205:1365" ph="{...}" />
-            <marker date="1528477584164" expanded="true" signature="258:1359" ph="{...}" />
-            <marker date="1528477584164" expanded="true" signature="376:1348" ph="{...}" />
-            <marker date="1528477584164" expanded="true" signature="424:613" ph="{...}" />
-            <marker date="1528477584164" expanded="true" signature="661:850" ph="{...}" />
-            <marker date="1528477584164" expanded="true" signature="898:1092" ph="{...}" />
-            <marker date="1528477584164" expanded="true" signature="1140:1334" ph="{...}" />
+            <marker date="1529259567858" expanded="true" signature="61:774" ph="{...}" />
+            <marker date="1529259567858" expanded="true" signature="111:768" ph="{...}" />
+            <marker date="1529259567858" expanded="true" signature="806:1078" ph="{...}" />
+            <marker date="1529259567858" expanded="true" signature="1123:1184" ph="{...}" />
+            <marker date="1529259567858" expanded="true" signature="1228:1294" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/SCS.Core/IElement.cs">
+    <entry file="file://$PROJECT_DIR$/SCS.Core.Last/Core/Vectors.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="205">
-          <caret line="5" column="11" lean-forward="true" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="11" />
+        <state relative-caret-position="7395">
+          <caret line="255" column="13" lean-forward="false" selection-start-line="255" selection-start-column="13" selection-end-line="255" selection-end-column="13" />
           <folding>
-            <marker date="1527597829707" expanded="true" signature="18:231" ph="{...}" />
-            <marker date="1527597829707" expanded="true" signature="50:229" ph="{...}" />
+            <marker date="1529271316434" expanded="true" signature="6:39" ph="..." />
+            <marker date="1529271316434" expanded="true" signature="69:8857" ph="{...}" />
+            <marker date="1529271316434" expanded="true" signature="76:133" ph="/// Вид кодирования. ... " />
+            <marker date="1529271316434" expanded="true" signature="156:341" ph="{...}" />
+            <marker date="1529271316434" expanded="true" signature="171:234" ph="/// Целочисленное. ... " />
+            <marker date="1529271316434" expanded="true" signature="260:322" ph="/// Вещественное. ... " />
+            <marker date="1529271316434" expanded="true" signature="391:8855" ph="{...}" />
+            <marker date="1529271316434" expanded="true" signature="406:514" ph="/// Реализация интерфейса IComparable, для сортировки векторов. ... " />
+            <marker date="1529271316434" expanded="true" signature="558:742" ph="{...}" />
+            <marker date="1529271316434" expanded="true" signature="752:1091" ph="/* Реализуем интерфейс IComparable&lt;T&gt; ... */" />
+            <marker date="1529271316434" expanded="true" signature="1101:1200" ph="/// Итератор, выполняющий перебор элементов популяции. ... " />
+            <marker date="1529271316434" expanded="true" signature="1243:1374" ph="{...}" />
+            <marker date="1529271316434" expanded="true" signature="1296:1364" ph="{...}" />
+            <marker date="1529271316434" expanded="true" signature="1384:1477" ph="/// Исследуемая функция в виде лямбда выражения. ... " />
+            <marker date="1529271316434" expanded="true" signature="1541:1641" ph="/// Приспособленность особи / Значение функции в точке. ... " />
+            <marker date="1529271316434" expanded="true" signature="1679:2491" ph="{...}" />
+            <marker date="1529271316434" expanded="true" signature="1705:2481" ph="{...}" />
+            <marker date="1529271316434" expanded="true" signature="1755:2467" ph="{...}" />
+            <marker date="1529271316434" expanded="true" signature="1952:2132" ph="{...}" />
+            <marker date="1529271316434" expanded="true" signature="2501:2566" ph="/// Начальная точка. ... " />
+            <marker date="1529271316434" expanded="true" signature="2631:2695" ph="/// Конечная точка. ... " />
+            <marker date="1529271316434" expanded="true" signature="2758:2855" ph="/// Количество разрядов для целочисленной кодировки. ... " />
+            <marker date="1529271316434" expanded="true" signature="2916:2981" ph="/// Тип кодирования. ... " />
+            <marker date="1529271316434" expanded="true" signature="3061:3117" ph="/// Вектор. ... " />
+            <marker date="1529271316434" expanded="true" signature="3168:3247" ph="/// Пустой вектор, размерностью i. ... " />
+            <marker date="1529271316434" expanded="true" signature="3277:3388" ph="{...}" />
+            <marker date="1529271316434" expanded="true" signature="3399:3490" ph="/// Заполнение вектора путем передачи массива. ... " />
+            <marker date="1529271316434" expanded="true" signature="3537:3644" ph="{...}" />
+            <marker date="1529271316434" expanded="true" signature="3654:3767" ph="/// Коснтруктор, инициализирущий вектор посредством другого вектора. ... " />
+            <marker date="1529271316434" expanded="true" signature="3806:3999" ph="{...}" />
+            <marker date="1529271316434" expanded="true" signature="3917:3989" ph="{...}" />
+            <marker date="1529271316434" expanded="true" signature="4009:4120" ph="/// Коснтруктор, инициализирущий вектор посредством массива строк. ... " />
+            <marker date="1529271316434" expanded="true" signature="4160:4375" ph="{...}" />
+            <marker date="1529271316434" expanded="true" signature="4275:4365" ph="{...}" />
+            <marker date="1529271316434" expanded="true" signature="4385:4526" ph="/// Коснтруктор, инициализирущий вектор посредством строки, где каждая точка разделена пробелом. ... " />
+            <marker date="1529271316434" expanded="true" signature="4568:4878" ph="{...}" />
+            <marker date="1529271316434" expanded="true" signature="4888:4964" ph="/// Операция разности векоторв. ... " />
+            <marker date="1529271316434" expanded="true" signature="5030:5185" ph="{...}" />
+            <marker date="1529271316434" expanded="true" signature="5196:5280" ph="/// Инвертируем значения полей вектора. ... " />
+            <marker date="1529271316434" expanded="true" signature="5334:5436" ph="{...}" />
+            <marker date="1529271316434" expanded="true" signature="5447:5523" ph="/// Операция сложения векторов. ... " />
+            <marker date="1529271316434" expanded="true" signature="5589:5765" ph="{...}" />
+            <marker date="1529271316434" expanded="true" signature="5775:5850" ph="/// Сложение числа с вектором. ... " />
+            <marker date="1529271316434" expanded="true" signature="5913:6078" ph="{...}" />
+            <marker date="1529271316434" expanded="true" signature="6089:6173" ph="/// Операция умножения числа на вектор. ... " />
+            <marker date="1529271316434" expanded="true" signature="6236:6402" ph="{...}" />
+            <marker date="1529271316434" expanded="true" signature="6413:6499" ph="/// Операция умножения вектора на вектор. ... " />
+            <marker date="1529271316434" expanded="true" signature="6563:6700" ph="{...}" />
+            <marker date="1529271316434" expanded="true" signature="6764:6915" ph="{...}" />
+            <marker date="1529271316434" expanded="true" signature="6925:7020" ph="/// Умножение вектора на транспонированный вектор. ... " />
+            <marker date="1529271316434" expanded="true" signature="7088:7438" ph="{...}" />
+            <marker date="1529271316434" expanded="true" signature="7448:7529" ph="/// Строковое представление вектора. ... " />
+            <marker date="1529271316434" expanded="true" signature="7571:7759" ph="{...}" />
+            <marker date="1529271316434" expanded="true" signature="7769:7886" ph="/// Вычисление истинного значения вектора при целочисленном кодировании. ... " />
+            <marker date="1529271316434" expanded="true" signature="7918:8208" ph="{...}" />
+            <marker date="1529271316434" expanded="true" signature="8019:8167" ph="{...}" />
+            <marker date="1529271316434" expanded="true" signature="8218:8280" ph="///Норма вектора. ... " />
+            <marker date="1529271316434" expanded="true" signature="8308:8519" ph="{...}" />
+            <marker date="1529271316434" expanded="true" signature="8334:8509" ph="{...}" />
+            <marker date="1529271316434" expanded="true" signature="8528:8601" ph="/// Значение ячейки вектора. ... " />
+            <marker date="1529271316434" expanded="true" signature="8639:8735" ph="{...}" />
+            <marker date="1529271316434" expanded="true" signature="8744:8807" ph="/// Длина вектора. ... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SCS.Core.Last/Core/Matrix.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="261">
+          <caret line="9" column="27" lean-forward="false" selection-start-line="9" selection-start-column="27" selection-end-line="9" selection-end-column="27" />
+          <folding>
+            <marker date="1529271316661" expanded="true" signature="43:8619" ph="{...}" />
+            <marker date="1529271316661" expanded="true" signature="69:8617" ph="{...}" />
+            <marker date="1529271316661" expanded="true" signature="84:150" ph="/// Двумерный массив. ... " />
+            <marker date="1529271316661" expanded="true" signature="195:277" ph="/// Задает пустую матрицу размером N. ... " />
+            <marker date="1529271316661" expanded="true" signature="306:365" ph="{...}" />
+            <marker date="1529271316661" expanded="true" signature="376:469" ph="/// Задает матрицу с помощью двумерного массива. ... " />
+            <marker date="1529271316661" expanded="true" signature="509:563" ph="{...}" />
+            <marker date="1529271316661" expanded="true" signature="574:657" ph="/// Получение значение ячейки матрицы. ... " />
+            <marker date="1529271316661" expanded="true" signature="705:890" ph="{...}" />
+            <marker date="1529271316661" expanded="true" signature="901:966" ph="/// Сложение матриц. ... " />
+            <marker date="1529271316661" expanded="true" signature="1028:1264" ph="{...}" />
+            <marker date="1529271316661" expanded="true" signature="1275:1340" ph="/// Разность матриц. ... " />
+            <marker date="1529271316661" expanded="true" signature="1402:1638" ph="{...}" />
+            <marker date="1529271316661" expanded="true" signature="1649:1725" ph="/// Умножение матрицы на число. ... " />
+            <marker date="1529271316661" expanded="true" signature="1786:2015" ph="{...}" />
+            <marker date="1529271316661" expanded="true" signature="2026:2103" ph="/// Умножение матрицы на вектор. ... " />
+            <marker date="1529271316661" expanded="true" signature="2165:2542" ph="{...}" />
+            <marker date="1529271316661" expanded="true" signature="2552:2618" ph="/// Умножение матриц. ... " />
+            <marker date="1529271316661" expanded="true" signature="2680:2999" ph="{...}" />
+            <marker date="1529271316661" expanded="true" signature="3009:3087" ph="/// Деление матрицы на константу. ... " />
+            <marker date="1529271316661" expanded="true" signature="3147:3384" ph="{...}" />
+            <marker date="1529271316661" expanded="true" signature="3394:3525" ph="/// Возвращает матрицу без указанных строки и столбца. Исходная матрица не изменяется. ... " />
+            <marker date="1529271316661" expanded="true" signature="3577:4154" ph="{...}" />
+            <marker date="1529271316661" expanded="true" signature="3826:4121" ph="{...}" />
+            <marker date="1529271316661" expanded="true" signature="3964:4107" ph="{...}" />
+            <marker date="1529271316661" expanded="true" signature="4164:4244" ph="/// Единичная матрица размером NxN. ... " />
+            <marker date="1529271316661" expanded="true" signature="4282:4494" ph="{...}" />
+            <marker date="1529271316661" expanded="true" signature="4504:4573" ph="/// Детерминант матрицы. ... " />
+            <marker date="1529271316661" expanded="true" signature="4607:5310" ph="{...}" />
+            <marker date="1529271316661" expanded="true" signature="4633:5300" ph="{...}" />
+            <marker date="1529271316661" expanded="true" signature="5136:5258" ph="{...}" />
+            <marker date="1529271316661" expanded="true" signature="5321:5391" ph="/// Определитель матрицы. ... " />
+            <marker date="1529271316661" expanded="true" signature="5443:6033" ph="{...}" />
+            <marker date="1529271316661" expanded="true" signature="5888:5999" ph="{...}" />
+            <marker date="1529271316661" expanded="true" signature="6044:6184" ph="/// Обратная матрица. Обратная матрица существует только для квадратных, невырожденных, матриц. ... " />
+            <marker date="1529271316661" expanded="true" signature="6214:6843" ph="{...}" />
+            <marker date="1529271316661" expanded="true" signature="6240:6833" ph="{...}" />
+            <marker date="1529271316661" expanded="true" signature="6503:6788" ph="{...}" />
+            <marker date="1529271316661" expanded="true" signature="6572:6770" ph="{...}" />
+            <marker date="1529271316661" expanded="true" signature="6854:6994" ph="/// Обратная матрица. Обратная матрица существует только для квадратных, невырожденных, матриц. ... " />
+            <marker date="1529271316661" expanded="true" signature="7056:7698" ph="{...}" />
+            <marker date="1529271316661" expanded="true" signature="7303:7661" ph="{...}" />
+            <marker date="1529271316661" expanded="true" signature="7366:7647" ph="{...}" />
+            <marker date="1529271316661" expanded="true" signature="7709:7782" ph="/// Транспонирование матицы. ... " />
+            <marker date="1529271316661" expanded="true" signature="7814:8108" ph="{...}" />
+            <marker date="1529271316661" expanded="true" signature="7840:8098" ph="{...}" />
+            <marker date="1529271316661" expanded="true" signature="8119:8192" ph="/// Транспонирование матицы. ... " />
+            <marker date="1529271316661" expanded="true" signature="8234:8467" ph="{...}" />
+            <marker date="1529271316661" expanded="true" signature="8477:8546" ph="/// Размерность матрицы. ... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SCS.Core.Last/Core/GA/Population.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="261">
+          <caret line="9" column="6" lean-forward="false" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
+          <folding>
+            <marker date="1529271316363" expanded="true" signature="6:92" ph="..." />
+            <marker date="1529271316363" expanded="true" signature="125:7936" ph="{...}" />
+            <marker date="1529271316363" expanded="true" signature="132:219" ph="/// Класс реализующий популяцию, как набор особей. ... " />
+            <marker date="1529271316363" expanded="true" signature="247:7934" ph="{...}" />
+            <marker date="1529271316363" expanded="true" signature="262:357" ph="/// Класс реализующий популяцию, как набор особей. ... " />
+            <marker date="1529271316363" expanded="true" signature="422:519" ph="/// Получает число особей, содержащихся в популяции. ... " />
+            <marker date="1529271316363" expanded="true" signature="591:681" ph="/// Возвращает особь с минимальным значением. ... " />
+            <marker date="1529271316363" expanded="true" signature="755:846" ph="/// Возвращает особь с максимальным значением. ... " />
+            <marker date="1529271316363" expanded="true" signature="920:1019" ph="/// Сортирует заданную популяцию в порядке ворастания. ... " />
+            <marker date="1529271316363" expanded="true" signature="1078:1167" ph="/// Возвращает случайную особь из популяции. ... " />
+            <marker date="1529271316363" expanded="true" signature="1267:1382" ph="/// Переменная для генерации случайного числа из заданного промежутка. ... " />
+            <marker date="1529271316363" expanded="true" signature="1450:1546" ph="/// Возвращает или задает значение отдельной особи. ... " />
+            <marker date="1529271316363" expanded="true" signature="1585:1698" ph="{...}" />
+            <marker date="1529271316363" expanded="true" signature="1708:1798" ph="/// Стандартный коструктор, для общей логики. ... " />
+            <marker date="1529271316363" expanded="true" signature="1826:1859" ph="{...}" />
+            <marker date="1529271316363" expanded="true" signature="1869:1983" ph="/// Конструктор, который инициализирует особи, принимая набор особей. ... " />
+            <marker date="1529271316363" expanded="true" signature="2035:2116" ph="{...}" />
+            <marker date="1529271316363" expanded="true" signature="2126:2239" ph="/// Конструктор, генерирующий случайную популяцию заданного размера. ... " />
+            <marker date="1529271316363" expanded="true" signature="2318:2812" ph="{...}" />
+            <marker date="1529271316363" expanded="true" signature="2427:2802" ph="{...}" />
+            <marker date="1529271316363" expanded="true" signature="2579:2747" ph="{...}" />
+            <marker date="1529271316363" expanded="true" signature="2822:2935" ph="/// Конструктор, генерирующий случайную популяцию заданного размера. ... " />
+            <marker date="1529271316363" expanded="true" signature="3029:3477" ph="{...}" />
+            <marker date="1529271316363" expanded="true" signature="3139:3466" ph="{...}" />
+            <marker date="1529271316363" expanded="true" signature="3292:3410" ph="{...}" />
+            <marker date="1529271316363" expanded="true" signature="3495:3631" ph="/// Умный коснтруктор, который создает популяцию с вещественным/целочисленным кодированием. ... " />
+            <marker date="1529271316363" expanded="true" signature="3677:5191" ph="{...}" />
+            <marker date="1529271316363" expanded="true" signature="3786:5181" ph="{...}" />
+            <marker date="1529271316363" expanded="true" signature="4039:4478" ph="{...}" />
+            <marker date="1529271316363" expanded="true" signature="4215:4407" ph="{...}" />
+            <marker date="1529271316363" expanded="true" signature="4753:5136" ph="{...}" />
+            <marker date="1529271316363" expanded="true" signature="4929:5065" ph="{...}" />
+            <marker date="1529271316363" expanded="true" signature="5202:5367" ph="/// Турнирная селекция. ... " />
+            <marker date="1529271316363" expanded="true" signature="5431:5775" ph="{...}" />
+            <marker date="1529271316363" expanded="true" signature="5612:5719" ph="{...}" />
+            <marker date="1529271316363" expanded="true" signature="5785:5956" ph="/// Функция, которая возвращает родительский отобранный из текущей популяции. В качестве аргумента принимается ра ... " />
+            <marker date="1529271316363" expanded="true" signature="6016:6299" ph="{...}" />
+            <marker date="1529271316363" expanded="true" signature="6130:6242" ph="{...}" />
+            <marker date="1529271316363" expanded="true" signature="6309:6401" ph="/// Оператор популяционного всплеска популяции. ... " />
+            <marker date="1529271316363" expanded="true" signature="6466:7643" ph="{...}" />
+            <marker date="1529271316363" expanded="true" signature="6632:7633" ph="{...}" />
+            <marker date="1529271316363" expanded="true" signature="6690:7619" ph="{...}" />
+            <marker date="1529271316363" expanded="true" signature="6895:7031" ph="{...}" />
+            <marker date="1529271316363" expanded="true" signature="7312:7504" ph="{...}" />
+            <marker date="1529271316363" expanded="true" signature="7653:7752" ph="/// Итератор, выполняющий перебор элементов популяции. ... " />
+            <marker date="1529271316363" expanded="true" signature="7795:7927" ph="{...}" />
+            <marker date="1529271316363" expanded="true" signature="7849:7917" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SCS.Core.Last/Core/GA/VisualizationGA.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="203">
+          <caret line="7" column="8" lean-forward="false" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
+          <folding>
+            <marker date="1529271316585" expanded="true" signature="66:1189" ph="{...}" />
+            <marker date="1529271316585" expanded="true" signature="94:1187" ph="{...}" />
+            <marker date="1529271316585" expanded="true" signature="109:174" ph="/// Вид кодирования. ... " />
+            <marker date="1529271316585" expanded="true" signature="231:295" ph="/// Вид скрещивания ... " />
+            <marker date="1529271316585" expanded="true" signature="419:531" ph="{...}" />
+            <marker date="1529271316585" expanded="true" signature="541:632" ph="/// Функция создает Методы и их классификацию. ... " />
+            <marker date="1529271316585" expanded="true" signature="687:1181" ph="{...}" />
+            <marker date="1529271316585" expanded="true" signature="755:1170" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SCS.Core.Last/Core/LaboratoryWork.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="847">
+          <caret line="140" column="33" lean-forward="false" selection-start-line="140" selection-start-column="33" selection-end-line="140" selection-end-column="33" />
+          <folding>
+            <marker date="1529271316267" expanded="true" signature="6:39" ph="..." />
+            <marker date="1529271316267" expanded="true" signature="61:17185" ph="{...}" />
+            <marker date="1529271316267" expanded="true" signature="68:158" ph="/// Класс для нахождения Alpha в заданном направлении ... " />
+            <marker date="1529271316267" expanded="true" signature="192:17183" ph="{...}" />
+            <marker date="1529271316267" expanded="true" signature="207:271" ph="/// Начальная точка ... " />
+            <marker date="1529271316267" expanded="true" signature="310:391" ph="/// Переменная точка. Точка минимума ... " />
+            <marker date="1529271316267" expanded="true" signature="429:512" ph="/// Направляющий вектор (антиградиент) ... " />
+            <marker date="1529271316267" expanded="true" signature="550:628" ph="/// Шаг в трехмерном пространстве ... " />
+            <marker date="1529271316267" expanded="true" signature="669:735" ph="/// Начало промежутка ... " />
+            <marker date="1529271316267" expanded="true" signature="772:837" ph="/// Конец промежутка ... " />
+            <marker date="1529271316267" expanded="true" signature="874:955" ph="/// Максимальное количество итераций ... " />
+            <marker date="1529271316267" expanded="true" signature="984:1048" ph="/// Точность поиска ... " />
+            <marker date="1529271316267" expanded="true" signature="1095:1186" ph="/// Первая точка соотношения золотого сечения  ... " />
+            <marker date="1529271316267" expanded="true" signature="1256:1350" ph="/// Вторая точка соотношения золотого сечения  ... " />
+            <marker date="1529271316267" expanded="true" signature="1420:1492" ph="/// Заданная фунция  ... " />
+            <marker date="1529271316267" expanded="true" signature="1530:1603" ph="/// Значение функции в точке ... " />
+            <marker date="1529271316267" expanded="true" signature="1639:1720" ph="{...}" />
+            <marker date="1529271316267" expanded="true" signature="1731:1805" ph="/// Переход к следующей точке ... " />
+            <marker date="1529271316267" expanded="true" signature="1846:1898" ph="{...}" />
+            <marker date="1529271316267" expanded="true" signature="1908:1991" ph="/// Производная в точке по направлению ... " />
+            <marker date="1529271316267" expanded="true" signature="2031:2123" ph="{...}" />
+            <marker date="1529271316267" expanded="true" signature="2134:2226" ph="/// Первая формула численного дифференцирования ... " />
+            <marker date="1529271316267" expanded="true" signature="2273:2599" ph="{...}" />
+            <marker date="1529271316267" expanded="true" signature="2402:2567" ph="{...}" />
+            <marker date="1529271316267" expanded="true" signature="2610:2702" ph="/// Вторая формула численного дифференцирования ... " />
+            <marker date="1529271316267" expanded="true" signature="2750:3100" ph="{...}" />
+            <marker date="1529271316267" expanded="true" signature="2879:3068" ph="{...}" />
+            <marker date="1529271316267" expanded="true" signature="3111:3206" ph="/// Четвертая формула численного дифференцирования ... " />
+            <marker date="1529271316267" expanded="true" signature="3254:3749" ph="{...}" />
+            <marker date="1529271316267" expanded="true" signature="3383:3717" ph="{...}" />
+            <marker date="1529271316267" expanded="true" signature="3760:3839" ph="/// Значение функции в новой точке ... " />
+            <marker date="1529271316267" expanded="true" signature="3878:3949" ph="{...}" />
+            <marker date="1529271316267" expanded="true" signature="3960:4023" ph="/// Метод Свенн-1  ... " />
+            <marker date="1529271316267" expanded="true" signature="4052:4645" ph="{...}" />
+            <marker date="1529271316267" expanded="true" signature="4296:4400" ph="{...}" />
+            <marker date="1529271316267" expanded="true" signature="4424:4521" ph="{...}" />
+            <marker date="1529271316267" expanded="true" signature="4538:4635" ph="{...}" />
+            <marker date="1529271316267" expanded="true" signature="4656:4720" ph="/// Метод Свенна-4  ... " />
+            <marker date="1529271316267" expanded="true" signature="4749:5340" ph="{...}" />
+            <marker date="1529271316267" expanded="true" signature="4999:5103" ph="{...}" />
+            <marker date="1529271316267" expanded="true" signature="5127:5220" ph="{...}" />
+            <marker date="1529271316267" expanded="true" signature="5237:5330" ph="{...}" />
+            <marker date="1529271316267" expanded="true" signature="5350:5411" ph="/// Метод Свен-1 ... " />
+            <marker date="1529271316267" expanded="true" signature="5440:5890" ph="{...}" />
+            <marker date="1529271316267" expanded="true" signature="5572:5652" ph="{...}" />
+            <marker date="1529271316267" expanded="true" signature="5675:5769" ph="{...}" />
+            <marker date="1529271316267" expanded="true" signature="5786:5880" ph="{...}" />
+            <marker date="1529271316267" expanded="true" signature="5900:5966" ph="/// Метод - Больцано  ... " />
+            <marker date="1529271316267" expanded="true" signature="5997:6273" ph="{...}" />
+            <marker date="1529271316267" expanded="true" signature="6114:6263" ph="{...}" />
+            <marker date="1529271316267" expanded="true" signature="6284:6352" ph="/// Точка аппроксимации ... " />
+            <marker date="1529271316267" expanded="true" signature="6379:6823" ph="{...}" />
+            <marker date="1529271316267" expanded="true" signature="6433:6643" ph="{...}" />
+            <marker date="1529271316267" expanded="true" signature="6688:6777" ph="{...}" />
+            <marker date="1529271316267" expanded="true" signature="6834:6898" ph="/// Метод Давидона  ... " />
+            <marker date="1529271316267" expanded="true" signature="6939:7361" ph="{...}" />
+            <marker date="1529271316267" expanded="true" signature="7072:7329" ph="{...}" />
+            <marker date="1529271316267" expanded="true" signature="7117:7180" ph="{...}" />
+            <marker date="1529271316267" expanded="true" signature="7201:7264" ph="{...}" />
+            <marker date="1529271316267" expanded="true" signature="7372:7435" ph="/// Параметр гамма ... " />
+            <marker date="1529271316267" expanded="true" signature="7462:7680" ph="{...}" />
+            <marker date="1529271316267" expanded="true" signature="7691:7766" ph="/// Метод золотого сечения - 1 ... " />
+            <marker date="1529271316267" expanded="true" signature="7787:8409" ph="{...}" />
+            <marker date="1529271316267" expanded="true" signature="7974:8367" ph="{...}" />
+            <marker date="1529271316267" expanded="true" signature="8023:8167" ph="{...}" />
+            <marker date="1529271316267" expanded="true" signature="8188:8332" ph="{...}" />
+            <marker date="1529271316267" expanded="true" signature="8419:8493" ph="/// Метод золотого ечения - 2 ... " />
+            <marker date="1529271316267" expanded="true" signature="8514:9329" ph="{...}" />
+            <marker date="1529271316267" expanded="true" signature="8671:9285" ph="{...}" />
+            <marker date="1529271316267" expanded="true" signature="8747:8988" ph="{...}" />
+            <marker date="1529271316267" expanded="true" signature="8861:8970" ph="{...}" />
+            <marker date="1529271316267" expanded="true" signature="9009:9250" ph="{...}" />
+            <marker date="1529271316267" expanded="true" signature="9123:9232" ph="{...}" />
+            <marker date="1529271316267" expanded="true" signature="9339:9403" ph="/// Метод дихотомии ... " />
+            <marker date="1529271316267" expanded="true" signature="9430:9791" ph="{...}" />
+            <marker date="1529271316267" expanded="true" signature="9544:9749" ph="{...}" />
+            <marker date="1529271316267" expanded="true" signature="9802:9880" ph="/// Метод Кубической интерполяции ... " />
+            <marker date="1529271316267" expanded="true" signature="9903:10871" ph="{...}" />
+            <marker date="1529271316267" expanded="true" signature="10132:10197" ph="{...}" />
+            <marker date="1529271316267" expanded="true" signature="10218:10486" ph="{...}" />
+            <marker date="1529271316267" expanded="true" signature="10271:10348" ph="{...}" />
+            <marker date="1529271316267" expanded="true" signature="10373:10468" ph="{...}" />
+            <marker date="1529271316267" expanded="true" signature="10545:10613" ph="{...}" />
+            <marker date="1529271316267" expanded="true" signature="10634:10821" ph="{...}" />
+            <marker date="1529271316267" expanded="true" signature="10882:10944" ph="/// Метод Пауэлла ... " />
+            <marker date="1529271316267" expanded="true" signature="10968:12665" ph="{...}" />
+            <marker date="1529271316267" expanded="true" signature="11357:12623" ph="{...}" />
+            <marker date="1529271316267" expanded="true" signature="11572:11775" ph="{...}" />
+            <marker date="1529271316267" expanded="true" signature="11802:12118" ph="{...}" />
+            <marker date="1529271316267" expanded="true" signature="11857:11969" ph="{...}" />
+            <marker date="1529271316267" expanded="true" signature="11994:12100" ph="{...}" />
+            <marker date="1529271316267" expanded="true" signature="12139:12455" ph="{...}" />
+            <marker date="1529271316267" expanded="true" signature="12194:12306" ph="{...}" />
+            <marker date="1529271316267" expanded="true" signature="12331:12437" ph="{...}" />
+            <marker date="1529271316267" expanded="true" signature="12502:12609" ph="{...}" />
+            <marker date="1529271316267" expanded="true" signature="12675:12746" ph="/// Стандартый конструктор ... " />
+            <marker date="1529271316267" expanded="true" signature="12778:12799" ph="{...}" />
+            <marker date="1529271316267" expanded="true" signature="12810:12907" ph="/// Инициализирование функции и размерности векторов ... " />
+            <marker date="1529271316267" expanded="true" signature="13003:13192" ph="{...}" />
+            <marker date="1529271316267" expanded="true" signature="13203:13290" ph="/// Получить альфа методом Больцан-Давидон ... " />
+            <marker date="1529271316267" expanded="true" signature="13357:13547" ph="{...}" />
+            <marker date="1529271316267" expanded="true" signature="13558:13639" ph="/// Получить альфа методом Дихотомии ... " />
+            <marker date="1529271316267" expanded="true" signature="13700:13861" ph="{...}" />
+            <marker date="1529271316267" expanded="true" signature="13872:13964" ph="/// Получить альфа методом Золотого сечения - 1 ... " />
+            <marker date="1529271316267" expanded="true" signature="14020:14209" ph="{...}" />
+            <marker date="1529271316267" expanded="true" signature="14219:14311" ph="/// Получить альфа методом Золотого сечения - 2 ... " />
+            <marker date="1529271316267" expanded="true" signature="14367:14525" ph="{...}" />
+            <marker date="1529271316267" expanded="true" signature="14535:14630" ph="/// Получить альфа методом Кубической интерполяции ... " />
+            <marker date="1529271316267" expanded="true" signature="14688:14860" ph="{...}" />
+            <marker date="1529271316267" expanded="true" signature="14871:14951" ph="/// Получить альфа методом больцано ... " />
+            <marker date="1529271316267" expanded="true" signature="15011:15419" ph="{...}" />
+            <marker date="1529271316267" expanded="true" signature="15228:15377" ph="{...}" />
+            <marker date="1529271316267" expanded="true" signature="15430:15508" ph="/// Получить альфа методом Пауелл ... " />
+            <marker date="1529271316267" expanded="true" signature="15567:15749" ph="{...}" />
+            <marker date="1529271316267" expanded="true" signature="15759:15852" ph="/// Параметр гамма. Используется в методу пауелл ... " />
+            <marker date="1529271316267" expanded="true" signature="15914:15972" ph="/// Дихотомия ... " />
+            <marker date="1529271316267" expanded="true" signature="16045:16113" ph="/// Золотое сечение - 1 ... " />
+            <marker date="1529271316267" expanded="true" signature="16185:16257" ph="/// Кубическая интерполяция ... " />
+            <marker date="1529271316267" expanded="true" signature="16337:16404" ph="/// Больцано - Давидон ... " />
+            <marker date="1529271316267" expanded="true" signature="16489:16544" ph="/// Пауелл ... " />
+            <marker date="1529271316267" expanded="true" signature="16612:16704" ph="/// Первая формула численного дифференцирования ... " />
+            <marker date="1529271316267" expanded="true" signature="16801:16893" ph="/// Вторая формула численного дифференцирования ... " />
+            <marker date="1529271316267" expanded="true" signature="16992:17087" ph="/// Четвертая формула численного дифференцирования ... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SCS.Core.Last/Core/ClassicOptimizationMethod.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="145">
+          <caret line="5" column="21" lean-forward="false" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
+          <folding>
+            <marker date="1529271316517" expanded="true" signature="6:31" ph="..." />
+            <marker date="1529271316517" expanded="true" signature="61:4566" ph="{...}" />
+            <marker date="1529271316517" expanded="true" signature="108:4564" ph="{...}" />
+            <marker date="1529271316517" expanded="true" signature="123:220" ph="/// Переменная для выполения одномерной минимизациию ... " />
+            <marker date="1529271316517" expanded="true" signature="275:340" ph="/// Стартовая точка. ... " />
+            <marker date="1529271316517" expanded="true" signature="381:450" ph="/// Исследуемая функция. ... " />
+            <marker date="1529271316517" expanded="true" signature="501:604" ph="/// Точность локализации минимума для многомерного поиска. ... " />
+            <marker date="1529271316517" expanded="true" signature="656:736" ph="/// Ограничение количества итераций ... " />
+            <marker date="1529271316517" expanded="true" signature="768:870" ph="/// Конструктор класса, для задания начальных параметров. ... " />
+            <marker date="1529271316517" expanded="true" signature="946:1138" ph="{...}" />
+            <marker date="1529271316517" expanded="true" signature="1149:3061" ph="Реализация Флетчера-Ривса" />
+            <marker date="1529271316517" expanded="true" signature="1191:1264" ph="///Текущее значение функции. ... " />
+            <marker date="1529271316517" expanded="true" signature="1292:1428" ph="{...}" />
+            <marker date="1529271316517" expanded="true" signature="1438:1569" ph="/// Значение производной в текущей точке. Вторая формула численного дифференцирования. ... " />
+            <marker date="1529271316517" expanded="true" signature="1601:1951" ph="{...}" />
+            <marker date="1529271316517" expanded="true" signature="1730:1919" ph="{...}" />
+            <marker date="1529271316517" expanded="true" signature="1961:2049" ph="///значение бета по формуле Флетчера-Ривса. ... " />
+            <marker date="1529271316517" expanded="true" signature="2108:2198" ph="{...}" />
+            <marker date="1529271316517" expanded="true" signature="2208:2337" ph="/// Нахождение минимума с помощью одного из четырех методов сопряженных градиентов.  ... " />
+            <marker date="1529271316517" expanded="true" signature="2391:3042" ph="{...}" />
+            <marker date="1529271316517" expanded="true" signature="2611:2706" ph="{...}" />
+            <marker date="1529271316517" expanded="true" signature="2727:2838" ph="{...}" />
+            <marker date="1529271316517" expanded="true" signature="3070:4558" ph="Реализация метода БФГШ" />
+            <marker date="1529271316517" expanded="true" signature="3109:3185" ph="/// Матрица переменной метрики. ... " />
+            <marker date="1529271316517" expanded="true" signature="3227:3338" ph="/// Формула переменной метрики Бройдена–Флетчера–Гольдфарба–Шенно. ... " />
+            <marker date="1529271316517" expanded="true" signature="3383:3753" ph="{...}" />
+            <marker date="1529271316517" expanded="true" signature="3764:3840" ph="/// Квазиньютоновский алгоритм. ... " />
+            <marker date="1529271316517" expanded="true" signature="3882:4539" ph="{...}" />
+            <marker date="1529271316517" expanded="true" signature="4108:4507" ph="{...}" />
+            <marker date="1529271316517" expanded="true" signature="4230:4273" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SCS.Core.Last/Core/GA/PopulationData.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="58">
+          <caret line="2" column="22" lean-forward="false" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
+          <folding>
+            <marker date="1529367247399" expanded="true" signature="66:377" ph="{...}" />
+            <marker date="1529367247399" expanded="true" signature="73:179" ph="/// Класс, который хранит данные о поведении генетического алгоритма. ... " />
+            <marker date="1529367247399" expanded="true" signature="211:375" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SCS.Core/OptimizationMethods/GeneticAlgorithms/GAService.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="232">
+          <caret line="8" column="1" lean-forward="false" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+          <folding>
+            <marker date="1529270709878" expanded="true" signature="133:154" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SCS.Core/OptimizationMethods/GeneticAlgorithms/Population.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="779">
+          <caret line="30" column="57" lean-forward="false" selection-start-line="30" selection-start-column="57" selection-end-line="30" selection-end-column="57" />
+          <folding>
+            <marker date="1529270710287" expanded="true" signature="6:66" ph="..." />
+            <marker date="1529270710287" expanded="true" signature="154:967" ph="{...}" />
+            <marker date="1529270710287" expanded="true" signature="169:264" ph="/// Класс реализующий популяцию, как набор особей. ... " />
+            <marker date="1529270710287" expanded="true" signature="336:433" ph="/// Получает число особей, содержащихся в популяции. ... " />
+            <marker date="1529270710287" expanded="true" signature="502:592" ph="/// Возвращает особь с минимальным значением. ... " />
+            <marker date="1529270710287" expanded="true" signature="652:743" ph="/// Возвращает особь с максимальным значением. ... " />
+            <marker date="1529270710287" expanded="true" signature="804:903" ph="/// Сортирует заданную популяцию в порядке ворастания. ... " />
           </folding>
         </state>
       </provider>

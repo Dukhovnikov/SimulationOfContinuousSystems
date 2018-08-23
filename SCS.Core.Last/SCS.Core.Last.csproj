@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{B243A5D7-EBAC-4763-8EBC-9B788F3BD85B}</ProjectGuid>
+    <ProjectGuid>{E7BB2AA3-397F-4AE9-890A-F61C98A77354}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>SCS.Core</RootNamespace>
-    <AssemblyName>SCS.Core</AssemblyName>
+    <RootNamespace>SCS.Core.Last</RootNamespace>
+    <AssemblyName>SCS.Core.Last</AssemblyName>
     <TargetFrameworkVersion>v4.7</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -38,22 +38,15 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Abstraction\ElementType.cs" />
-    <Compile Include="Abstraction\ICalculationRepository.cs" />
-    <Compile Include="Abstraction\ICalculationService.cs" />
-    <Compile Include="Abstraction\ICircuit.cs" />
-    <Compile Include="Abstraction\IDataPoints.cs" />
-    <Compile Include="Abstraction\IElement.cs" />
-    <Compile Include="Abstraction\Matrix.cs" />
-    <Compile Include="OptimizationMethods\GeneticAlgorithms\GAService.cs" />
-    <Compile Include="OptimizationMethods\GeneticAlgorithms\Population.cs" />
-    <Compile Include="OptimizationMethods\GeneticAlgorithms\RandomService.cs" />
-    <Compile Include="OptimizationMethods\Vector.cs" />
-    <Compile Include="OptLogic.cs" />
+    <Compile Include="Core\ClassicOptimizationMethod.cs" />
+    <Compile Include="Core\GA\GA.cs" />
+    <Compile Include="Core\GA\Population.cs" />
+    <Compile Include="Core\GA\PopulationData.cs" />
+    <Compile Include="Core\GA\VisualizationGA.cs" />
+    <Compile Include="Core\LaboratoryWork.cs" />
+    <Compile Include="Core\Matrix.cs" />
+    <Compile Include="Core\Vectors.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-  </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Implementation" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

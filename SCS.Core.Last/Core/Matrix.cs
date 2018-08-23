@@ -1,13 +1,13 @@
 ﻿using System;
 
-namespace SCS.Core
+namespace SCS.Core.Last.Core
 {
     public class Matrix
     {
         /// <summary>
         /// Двумерный массив.
         /// </summary>
-        private readonly double[,] _matrix;
+        private double[,] matrix;
 
 
         /// <summary>
@@ -15,7 +15,7 @@ namespace SCS.Core
         /// </summary>
         public Matrix(int n)
         {
-            _matrix = new double[n, n];
+            matrix = new double[n, n];
         }
 
 
@@ -24,7 +24,7 @@ namespace SCS.Core
         /// </summary>
         public Matrix(double[,] matrix)
         {
-            this._matrix = matrix;
+            this.matrix = matrix;
         }
 
 
@@ -33,8 +33,8 @@ namespace SCS.Core
         /// </summary>
         public double this[int row, int column]
         {
-            get => _matrix[row, column];
-            set => _matrix[row, column] = value;
+            get { return matrix[row, column]; } /// Аксессор для получения данных
+            set { matrix[row, column] = value; } /// Аксессор для установки данных
         }
 
 
@@ -43,10 +43,9 @@ namespace SCS.Core
         /// </summary>
         public static Matrix operator +(Matrix m1, Matrix m2)
         {
-            var m3 = new Matrix(m1.Size);
-            
-            for (var i = 0; i < m3.Size; i++)
-                for (var j = 0; j < m3.Size; j++)
+            Matrix m3 = new Matrix(m1.Size);
+            for (int i = 0; i < m3.Size; i++)
+                for (int j = 0; j < m3.Size; j++)
                     m3[i, j] = m1[i, j] + m2[i, j];
             return m3;
         }
@@ -57,10 +56,9 @@ namespace SCS.Core
         /// </summary>
         public static Matrix operator -(Matrix m1, Matrix m2)
         {
-            var m3 = new Matrix(m1.Size);
-            
-            for (var i = 0; i < m3.Size; i++)
-                for (var j = 0; j < m3.Size; j++)
+            Matrix m3 = new Matrix(m1.Size);
+            for (int i = 0; i < m3.Size; i++)
+                for (int j = 0; j < m3.Size; j++)
                     m3[i, j] = m1[i, j] - m2[i, j];
             return m3;
         }
@@ -69,13 +67,12 @@ namespace SCS.Core
         /// <summary>
         /// Умножение матрицы на число.
         /// </summary>
-        public static Matrix operator *(double c, Matrix m1)
+        public static Matrix operator *(double C, Matrix m1)
         {
-            var m3 = new Matrix(m1.Size);
-            
-            for (var i = 0; i < m3.Size; i++)
-                for (var j = 0; j < m3.Size; j++)
-                    m3[i, j] = c * m1[i, j];
+            Matrix m3 = new Matrix(m1.Size);
+            for (int i = 0; i < m3.Size; i++)
+                for (int j = 0; j < m3.Size; j++)
+                    m3[i, j] = C * m1[i, j];
             return m3;
         }
 
@@ -83,16 +80,13 @@ namespace SCS.Core
         /// <summary>
         /// Умножение матрицы на вектор.
         /// </summary>
-        public static Vector operator *(Matrix m, Vector v)
+        public static Vectors operator *(Matrix M, Vectors V)
         {
-            if (m.Size != v.Size)
-                throw new ArgumentException("Число столбцов матрицы А не равно числу элементов вектора В.");
-            
-            var vector = new SCS.Core.Vector(v.Size);
-            
-            for (var i = 0; i < vector.Size; i++)
-                for (var j = 0; j < vector.Size; j++)
-                    vector[i] += m[i, j] * v[j];
+            if (M.Size != V.Size) throw new ArgumentException("Число столбцов матрицы А не равно числу элементов вектора В.");
+            Vectors vector = new Vectors(V.Size);
+            for (int i = 0; i < vector.Size; i++)
+                for (int j = 0; j < vector.Size; j++)
+                    vector[i] += M[i, j] * V[j];
             return vector;
         }
 
@@ -101,11 +95,10 @@ namespace SCS.Core
         /// </summary>
         public static Matrix operator *(Matrix m1, Matrix m2)
         {
-            var matrix = new Matrix(m1.Size);
-            
-            for (var i = 0; i < matrix.Size; i++)
-                for (var j = 0; j < matrix.Size; j++)
-                    for (var k = 0; k < matrix.Size; k++)
+            Matrix matrix = new Matrix(m1.Size);
+            for (int i = 0; i < matrix.Size; i++)
+                for (int j = 0; j < matrix.Size; j++)
+                    for (int k = 0; k < matrix.Size; k++)
                         matrix[i, j] += m1[i, k] * m2[k, j];
             return matrix;
         }
@@ -113,13 +106,12 @@ namespace SCS.Core
         /// <summary>
         /// Деление матрицы на константу.
         /// </summary>
-        public static Matrix operator /(Matrix m, double c)
+        public static Matrix operator /(Matrix M, double C)
         {
-            var matrix = new Matrix(m.Size);
-            
-            for (var i = 0; i < m.Size; i++)
-                for (var j = 0; j < m.Size; j++)
-                    matrix[i, j] = m[i, j] / c;
+            Matrix matrix = new Matrix(M.Size);
+            for (int i = 0; i < M.Size; i++)
+                for (int j = 0; j < M.Size; j++)
+                    matrix[i, j] = M[i, j] / C;
             return matrix;
         }
 
@@ -128,20 +120,17 @@ namespace SCS.Core
         /// </summary>
         private Matrix Exclude(int row, int column)
         {
-            if (row > Size || column > Size)
-                throw new IndexOutOfRangeException("Строка или столбец не принадлежат матрице.");
-            
-            var m1 = new Matrix(Size - 1);
-            var x = 0;
-            
-            for (var i = 0; i < Size; i++)
+            if (row > Size || column > Size) throw new IndexOutOfRangeException("Строка или столбец не принадлежат матрице.");
+            Matrix m1 = new Matrix(Size - 1);
+            int X = 0;
+            for (int i = 0; i < Size; i++)
             {
-                var y = 0;
-                if (i == row) { x++; continue; }
-                for ( var j = 0; j < Size; j++)
+                int Y = 0;
+                if (i == row) { X++; continue; }
+                for ( int j = 0; j < Size; j++)
                 {
-                    if (j == column) { y++; continue; }
-                    m1[i - x, j - y] = this[i, j];
+                    if (j == column) { Y++; continue; }
+                    m1[i - X, j - Y] = this[i, j];
                 }
             }
             return m1;
@@ -150,11 +139,11 @@ namespace SCS.Core
         /// <summary>
         /// Единичная матрица размером NxN.
         /// </summary>
-        public static Matrix E(int n)
+        public static Matrix E(int N)
         {
-            var matrix = new Matrix(n);
-            for (var i = 0; i < n; i++)
-                for (var j = 0; j < n; j++)
+            Matrix matrix = new Matrix(N);
+            for (int i = 0; i < N; i++)
+                for (int j = 0; j < N; j++)
                     matrix[i, j] = 1;
             return matrix;
         }
@@ -162,46 +151,37 @@ namespace SCS.Core
         /// <summary>
         /// Детерминант матрицы.
         /// </summary>
-/*        public double Determinant
+        public double Determinant
         {
             get
             {
-                var m1 = this;
-                
+                Matrix m1 = this;
                 if (m1.Size == 1) return m1[0, 0];
                 if (m1.Size == 2) return m1[0, 0] * m1[1, 1] - m1[0, 1] * m1[1, 0];
                 if (m1.Size == 3) return m1[0, 0] * m1[1, 1] * m1[2, 2] + m1[0, 1] * m1[1, 2] * m1[2, 0] + m1[0, 2] * m1[1, 0] * m1[2, 1] - m1[0, 2] * m1[1, 1] * m1[2, 0] - m1[0, 0] * m1[1, 2] * m1[2, 1] - m1[0, 1] * m1[1, 0] * m1[2, 2];
-                
                 double det = 0;
-                
-                for (var i = 0; i < m1.Size; i++)
+                for (int i = 0; i < m1.Size; i++)
                 {
                     det += Math.Pow(-1, i) * m1[0, i] * m1.Exclude(0, i).Determinant;
                 }
-                
                 return det;
             }
-        }*/
+        }
 
 
         /// <summary>
         /// Определитель матрицы.
         /// </summary>
-        public static double Determinant(Matrix m1)
+        public static double determinant(Matrix m1)
         {
             if (m1.Size == 1) return m1[0, 0];
             if (m1.Size == 2) return m1[0, 0] * m1[1, 1] - m1[0, 1] * m1[1, 0];
-            if (m1.Size == 3)
-                return m1[0, 0] * m1[1, 1] * m1[2, 2] + m1[0, 1] * m1[1, 2] * m1[2, 0] +
-                       m1[0, 2] * m1[1, 0] * m1[2, 1] - m1[0, 2] * m1[1, 1] * m1[2, 0] -
-                       m1[0, 0] * m1[1, 2] * m1[2, 1] - m1[0, 1] * m1[1, 0] * m1[2, 2];
-            
+            if (m1.Size == 3) return m1[0, 0] * m1[1, 1] * m1[2, 2] + m1[0, 1] * m1[1, 2] * m1[2, 0] + m1[0, 2] * m1[1, 0] * m1[2, 1] - m1[0, 2] * m1[1, 1] * m1[2, 0] - m1[0, 0] * m1[1, 2] * m1[2, 1] - m1[0, 1] * m1[1, 0] * m1[2, 2];
             double det = 0;
-            for (var i = 0; i < m1.Size; i++)
+            for (int i = 0; i < m1.Size; i++)
             {
-                det += Math.Pow(-1, i) * m1[0, i] * Determinant(m1.Exclude(0, i));
+                det += Math.Pow(-1, i) * m1[0, i] * determinant(m1.Exclude(0, i));
             }
-            
             return det;
         }
 
@@ -209,7 +189,7 @@ namespace SCS.Core
         /// <summary>
         /// Обратная матрица. Обратная матрица существует только для квадратных, невырожденных, матриц.
         /// </summary>
-/*        public Matrix Inverse
+        public Matrix Inverse
         {
             get
             {
@@ -221,33 +201,28 @@ namespace SCS.Core
                     for (int j = 0; j < Size; j++)
                     {
                         Matrix tmp = Exclude(i, j);
-                        matrix[j, i] = (Math.Pow(-1, i + 1 + j + 1) / Determinant()) * tmp.Determinant;
+                        matrix[j, i] = (Math.Pow(-1, i + 1 + j + 1) / determinant) * tmp.Determinant;
                     }
                 }
                 return matrix;
             }
-        }*/
+        }
 
 
         /// <summary>
         /// Обратная матрица. Обратная матрица существует только для квадратных, невырожденных, матриц.
         /// </summary>
-        public static Matrix Inverse(Matrix m, int round = 0)
+        public static Matrix inverse(Matrix M, int round = 0)
         {
-            var matrix = new Matrix(m.Size);
-            var determinant = Matrix.Determinant(m);
-
+            Matrix matrix = new Matrix(M.Size);
+            double determinant = M.Determinant;
             if (determinant == 0) return matrix; //Если определитель == 0 - матрица вырожденная
-
-            for (var i = 0; i < m.Size; i++)
+            for (int i = 0; i < M.Size; i++)
             {
-                for (var j = 0; j < m.Size; j++)
+                for (int j = 0; j < M.Size; j++)
                 {
-                    var tmp = m.Exclude(i, j);
-
-                    matrix[j, i] = round == 0
-                        ? (Math.Pow(-1, i + 1 + j + 1) / determinant) * Matrix.Determinant(tmp)
-                        : Math.Round(((1 / determinant) * Matrix.Determinant(tmp)), round, MidpointRounding.ToEven);
+                    Matrix tmp = M.Exclude(i, j);
+                    matrix[j, i] = round == 0 ? (Math.Pow(-1, i + 1 + j + 1) / determinant) * tmp.Determinant : Math.Round(((1 / determinant) * tmp.Determinant), round, MidpointRounding.ToEven);
                 }
             }
             return matrix;
@@ -257,36 +232,35 @@ namespace SCS.Core
         /// <summary>
         /// Транспонирование матицы.
         /// </summary>
-        //public Matrix Transpose
-        //{
-        //    get
-        //    {
-        //        Matrix matrix = new Matrix(Size);
-        //        for (int i = 0; i < Size; i++)
-        //            for (int j = 0; j < Size; j++)
-        //                matrix[j, i] = this[i, j];
-        //        return matrix;
-        //    }
-        //}
+        public Matrix Transpose
+        {
+            get
+            {
+                Matrix matrix = new Matrix(Size);
+                for (int i = 0; i < Size; i++)
+                    for (int j = 0; j < Size; j++)
+                        matrix[j, i] = this[i, j];
+                return matrix;
+            }
+        }
 
 
         /// <summary>
         /// Транспонирование матицы.
         /// </summary>
-        public static Matrix Transpose(Matrix matrix)
+        public Matrix transpose(Matrix M)
         {
-            var transposeMatrix = new Matrix(matrix.Size);
-
-            for (var i = 0; i < matrix.Size; i++)
-                for (var j = 0; j < matrix.Size; j++)
-                    matrix[j, i] = matrix[i, j];
-
-            return transposeMatrix;
+            Matrix matrix = new Matrix(M.Size);
+            for (int i = 0; i < M.Size; i++)
+                for (int j = 0; j < M.Size; j++)
+                    matrix[j, i] = M[i, j];
+            return matrix;
         }
 
         /// <summary>
         /// Размерность матрицы.
         /// </summary>
-        public int Size => _matrix.GetLength(0);
+        public int Size { get { return matrix.GetLength(0); } }
+
     }
 }

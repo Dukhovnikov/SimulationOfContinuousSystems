@@ -3,27 +3,11 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 
-namespace SCS.Core
+namespace SCS.Core.OptimizationMethods
 {
-    public class Vector
+    public class Vector : IEnumerable, IComparable<Vector>
     {
-
-        /// <summary>
-        /// Итератор, выполняющий перебор элементов популяции.
-        /// </summary>
-        public IEnumerator GetEnumerator()
-        {
-            for (var i = 0; i < Size; i++)
-            {
-                yield return this[i];
-            }
-        }
-
-        /// <summary>
-        /// Вектор.
-        /// </summary>
-        private double[] DataVector { get; }
-
+        #region  Constructors
 
         /// <summary>
         /// Пустой вектор, размерностью i.
@@ -81,25 +65,36 @@ namespace SCS.Core
             for (var i = 0; i < newVector.Length; i++) { DataVector[i] = Convert.ToDouble(newVector[i]); }
         }
 
+        #endregion
+        
+        /// <summary>
+        /// Вектор.
+        /// </summary>
+        private double[] DataVector { get; }
+
+        private Func<double> FitnessFunction { get; set; }
+        
         /// <summary>
         /// Операция разности векоторв.
         /// </summary>
         public static Vector operator -(Vector v1, Vector v2) 
         {
             var v3 = new Vector(v1.Size);
-            
-            for (var i = 0; i < v1.Size; i++) v3[i] = v1[i] - v2[i];
+
+            for (var i = 0; i < v1.Size; i++) 
+                v3[i] = v1[i] - v2[i];
             
             return v3;
         }
-
 
         /// <summary>
         /// Инвертируем значения полей вектора.
         /// </summary>
         public static Vector operator -(Vector v1) 
         {
-            for (var i = 0; i < v1.Size; i++) v1[i] *= -1;
+            for (var i = 0; i < v1.Size; i++) 
+                v1[i] *= -1;
+            
             return v1;
         }
 
@@ -110,7 +105,10 @@ namespace SCS.Core
         public static Vector operator +(Vector v1, Vector v2) 
         {
             var v3 = new Vector(v1.Size);
-            for (var i = 0; i < v1.Size; i++) v3.DataVector[i] = v1.DataVector[i] + v2.DataVector[i];
+            
+            for (var i = 0; i < v1.Size; i++) 
+                v3.DataVector[i] = v1.DataVector[i] + v2.DataVector[i];
+            
             return v3;
         }
 
@@ -120,7 +118,10 @@ namespace SCS.Core
         public static Vector operator +(double c, Vector v1)
         {
             var v3 = new Vector(v1.Size);
-            for (var i = 0; i < v1.Size; i++) v3.DataVector[i] = c + v1.DataVector[i];
+            
+            for (var i = 0; i < v1.Size; i++) 
+                v3.DataVector[i] = c + v1.DataVector[i];
+            
             return v3;
         }
 
@@ -131,7 +132,10 @@ namespace SCS.Core
         public static Vector operator *(double c, Vector v1)
         {
             var v3 = new Vector(v1.Size);
-            for (var i = 0; i < v1.Size; i++) v3.DataVector[i] = c * v1.DataVector[i];
+            
+            for (var i = 0; i < v1.Size; i++) 
+                v3.DataVector[i] = c * v1.DataVector[i];
+            
             return v3; 
         }
 
@@ -141,15 +145,21 @@ namespace SCS.Core
         /// </summary>
         public static double operator *(Vector v1, Vector v2)
         {
-            double v3 = 0;
-            for (var i = 0; i < v1.Size; i++) v3 += v1[i] * v2[i];
-            return v3;
+            double rezult = 0;
+            
+            for (var i = 0; i < v1.Size; i++) 
+                rezult += v1[i] * v2[i];
+            
+            return rezult;
         }
 
         public static Vector operator /(Vector v1, double c)
         {
             var v3 = new Vector(v1.Size);
-            for (var i = 0; i < v3.Size; i++) v3[i] = v1[i] / c;
+            
+            for (var i = 0; i < v3.Size; i++) 
+                v3[i] = v1[i] / c;
+            
             return v3;
         }
 
@@ -159,10 +169,13 @@ namespace SCS.Core
         public static Matrix Multiplication(Vector v1, Vector v2)
         {
             var m = new Matrix(v1.Size);
+            
             if (v1.Size != v2.Size) throw new ArgumentException("Число столбцов матрицы А не равно числу строк матрицы В.");
+            
             for (var i = 0; i < m.Size; i++)
                 for (var j = 0; j < m.Size; j++)
                     m[i, j] = v1[i] * v2[j];
+            
             return m;
         }
 
@@ -178,17 +191,10 @@ namespace SCS.Core
             return vector;
         }
 
-        
-/*        public double Norma()
+        public int CompareTo(Vector obj)
         {
-            var sum = 0.0;
-            for (var i = 0; i < Size; i++)
-            {
-                sum += this[i] * this[i];
-            }
-
-            return sum;
-        }*/
+            return FitnessFunction.Invoke().CompareTo(obj.FitnessFunction.Invoke());
+        }
 
         /// <summary>
         ///Норма вектора.
@@ -207,5 +213,17 @@ namespace SCS.Core
         /// Длина вектора.
         /// </summary>
         public int Size => DataVector.Length;
+        
+        /// <inheritdoc />
+        /// <summary>
+        /// Итератор, выполняющий перебор элементов популяции.
+        /// </summary>
+        public IEnumerator GetEnumerator()
+        {
+            for (var i = 0; i < Size; i++)
+            {
+                yield return (this[i]);
+            }
+        }
     }
 }
